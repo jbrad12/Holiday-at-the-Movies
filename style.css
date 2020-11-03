@@ -31,7 +31,7 @@
     margin-bottom: 1rem;
   }
   
-  form .form-icons .input-group-label #{
+  form .form-icons .input-group-label {
     background-color: #1779ba;
     border-color: #1779ba;
   }
