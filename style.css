@@ -1,0 +1,81 @@
+.fi-social-facebook {
+    color: dodgerblue;
+    font-size: 2rem;
+  }
+  .fi-social-youtube {
+    color: red;
+    font-size: 2rem;
+  }
+  .fi-social-pinterest {
+    color: darkred;
+    font-size: 2rem;
+  }
+  i.fi-social-instagram {
+    color: brown;
+    font-size: 2rem;
+  }
+  i.fi-social-tumblr {
+    color: navy;
+    font-size: 2rem;
+  }
+  .fi-social-twitter {
+    color: skyblue;
+    font-size: 2rem;
+  }
+
+  form .form-icons {
+    text-align: center;
+  }
+  
+  form .form-icons h4 {
+    margin-bottom: 1rem;
+  }
+  
+  form .form-icons .input-group-label #{
+    background-color: #1779ba;
+    border-color: #1779ba;
+  }
+  
+  form .form-icons .input-group-field {
+    border-color: #1779ba;
+  }
+  
+  form .form-icons .fa {
+    color: white;
+    width: 1rem;
+  }
+
+.hero-section {
+    background: url(movies-img.jpg) 50% no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom:30px;
+  }
+  
+  .hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #0a0a0a;
+  }
+
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 8px;
+  }
