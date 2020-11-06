@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+<body>
 
 <header class="hero-section">
   <div class="hero-section-text">
@@ -17,14 +17,14 @@
     <h3>Find a movie based on the time of year</h3>
   </div>
 </header>
-
+<div class="container">
 <div class="row">
-  <div class="medium-6 columns">
+  <div class="medium-4 columns">
     <form>
       <div class="form-icons">
         <h4>What are you looking for?</h4>
 
-        <p>Date: <input type="text" id="datepicker"></p>
+        <div id="date">Date: <input type="text" id="datepicker" placeholder="Select a Date"></div>
            
         <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
           <li class="has-submenu"><a href="#">Rating</a>
@@ -41,27 +41,26 @@
         <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
           <li class="has-submenu"><a href="#">Genre</a>
             <ul class="submenu menu vertical" data-submenu>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Comedy</a></li>
+              <li><a href="#">Drama</a></li>
+              <li><a href="#">Romance</a></li>
             </ul>
           </li>
         </ul>
     
         <div class="input-group">
-          <span class="input-group-label">
-            <i class="fa fa-key"></i>
-          </span>
-          <input class="input-group-field" type="text" placeholder="Keyword">
+          <input id="search-btn" class="input-group-field" type="text" placeholder="Keyword">
         </div>
       </div>
     
       <button class="button expanded">Search</button>
     </form>
   </div>
-  <div class="medium-6 columns">
-    <p><img src="https://placehold.it/400x200&text=cool movie to watch" alt="article promo image" alt="advertisement for deep fried Twinkies"></p>
+  <div id="movie-main" class="medium-8 columns">
+    <img src="https://placehold.it/400x200&text=cool movie to watch" alt="article promo image" id="poster-main">
+    <h4>Plot</h4>
+    <p id="plot-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum alias placeat inventore facere ducimus molestiae saepe dolor dolores assumenda molestias nobis quaerat nihil facilis libero, velit quia. Odio, repellendus molestias?</p>
   </div>
 </div>
 
@@ -73,30 +72,45 @@
 
 <hr>
 
-<div class="row small-up-3 medium-up-4 large-up-5">
+<div class="row small-up-3 medium-up-4 large-up-5" id="movie-choices">
 
   <div class="column">
-    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie">
+    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie" id="poster-1">
+    <h5 id="title-1">Title</h5>
+    <h5 id="rating-1">Rating</h5>
+    <h5 id="genre-1">Genre</h5>
   </div>
 
   <div class="column">
-    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie">
+    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie" id="poster-2">
+    <h5 id="title-2">Title</h5>
+    <h5 id="rating-2">Rating</h5>
+    <h5 id="genre-2">Genre</h5>
   </div>
 
   <div class="column">
-    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie">
+    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie" id="poster-3">
+    <h5 id="title-3">Title</h5>
+    <h5 id="rating-3">Rating</h5>
+    <h5 id="genre-3">Genre</h5>
   </div>
 
   <div class="column show-for-medium">
-    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie">
+    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie" id="poster-4">
+    <h5 id="title-4">Title</h5>
+    <h5 id="rating-4">Rating</h5>
+    <h5 id="genre-4">Genre</h5>
   </div>
 
   <div class="column show-for-large">
-    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie">
+    <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie" id="poster-5">
+    <h5 id="title-5">Title</h5>
+    <h5 id="rating-5">Rating</h5>
+    <h5 id="genre-5">Genre</h5>
   </div>
 
 </div>
-
+</div>
 <footer>
   
 </footer>
@@ -106,3 +120,5 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>$(document).foundation();</script>
     <script src="script.js"></script>
+</body>
+</html>
