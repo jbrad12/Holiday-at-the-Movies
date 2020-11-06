@@ -6,7 +6,7 @@ $( function() {
 
 //API Calls
 
-//OMBD
+//The Movie DB
 var keyword = "Halloween"
 var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
 var queryURL = "https://api.themoviedb.org/3/search/keyword?api_key=" + apiKey + "&query=" + keyword
