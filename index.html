@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -23,11 +25,8 @@
       <div class="form-icons">
         <h4>What are you looking for?</h4>
 
-        <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown" >
-          <li class="has-submenu" id="calendar-container">
-          </li>
-        </ul>
-    
+        <p>Date: <input type="text" id="datepicker"></p>
+           
         <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
           <li class="has-submenu"><a href="#">Rating</a>
             <ul class="submenu menu vertical" data-submenu>
@@ -105,5 +104,6 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>$(document).foundation();</script>
     <script src="script.js"></script>
