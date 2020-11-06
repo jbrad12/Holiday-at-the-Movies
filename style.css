@@ -23,6 +23,10 @@
     font-size: 2rem;
   }
 
+  #datepicker {
+    width: 150px;
+  }
+
   form .form-icons {
     text-align: center;
   }
