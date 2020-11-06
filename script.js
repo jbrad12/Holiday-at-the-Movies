@@ -6,12 +6,13 @@ $( function() {
 //API Calls
 
 //OMBD
-var parameter = "A christmas story"
-var apiKey = "&apikey=578b0408"
-var queryURL = "http://www.omdbapi.com/?t=" + parameter + apiKey 
+var keyword = "Halloween"
+var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
+var queryURL = "https://api.themoviedb.org/3/search/keyword?api_key=" + apiKey + "&query=" + keyword
+var queryURL3 = "https://api.themoviedb.org/3/movie/tt0137523?api_key=" + apiKey + "&language=en-US"
 
 $.ajax({
-    url: queryURL,
+    url: queryURL3,
     method: "GET"
   }).then(function(response) {
       
