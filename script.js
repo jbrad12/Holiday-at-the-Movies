@@ -55,8 +55,14 @@ $.ajax({
   })
 
 //Calendarific
-var apiKey2 = "&api_key=7fcc61e9cff9ca714271b1579b4f3526db843694"
-var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&country=US&year=2020"
+
+var month = 10
+if (month == 10) {
+  var index = 359
+}
+
+var apiKey2 = "&api_key=ec6603e27ebba0d90a5d6bf7ea4694dbcfc0ca37"
+var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&country=US&year=2021"
 
 
   $.ajax({
@@ -64,7 +70,7 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
     method: "GET"
   }).then(function(response) {
       
-    console.log(response)
+    console.log(response.response.holidays[index].name)
 
   })
 
