@@ -28,9 +28,9 @@
   }
 
   .hide {
-    display: none
+    display: none;
   }
-  
+
   footer {
     position: fixed;
     left: 0;

@@ -10,3 +10,4 @@ $('#primary-menu').on(
       dropdown.css('display', 'inherit');
       dropdown.fadeOut('slow');
   });
+  
