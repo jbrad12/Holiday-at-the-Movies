@@ -3,28 +3,6 @@
     width: 150px;
   }
 
-  form .form-icons {
-    text-align: center;
-  }
-  
-  form .form-icons h4 {
-    margin-bottom: 1rem;
-  }
-  
-  form .form-icons .input-group-label {
-    background-color: gray;
-    border-color: gray;
-  }
-  
-  form .form-icons .input-group-field {
-    border-color: gray;
-  }
-  
-  form .form-icons .fa {
-    color: white;
-    width: 1rem;
-  }
-
 .hero-section {
     background: url(movies-img.jpg) 50% no-repeat;
     background-size: cover;
@@ -49,6 +27,9 @@
     font-weight: bold;
   }
 
+  .hide {
+    display: none
+  }
   
   footer {
     position: fixed;
