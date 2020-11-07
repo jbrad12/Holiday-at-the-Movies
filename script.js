@@ -66,6 +66,7 @@ function getMovie(holidays) {
   console.log(holidays)
   // var holiday = $(this).attr("value")
   console.log(holidayID[holidays])
+  
   var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
   var queryURL = "https://api.themoviedb.org/3/keyword/" + holidayID[holidays] + "/movies?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc"
   $.ajax({
@@ -74,7 +75,7 @@ function getMovie(holidays) {
   }).then(function (response) {
       console.log(response)
       //test
-      //$("#search-btn").on("click", function(event){
+      $("#search-btn").on("click", function(event){
         event.preventDefault();
 
         for (var i = 0; i < 6; i++) {
@@ -86,7 +87,7 @@ function getMovie(holidays) {
 
       //poster path   http://image.tmdb.org/t/p/w185/
       //test
-    //})
+    })
   })
 }
 //Calendarific
