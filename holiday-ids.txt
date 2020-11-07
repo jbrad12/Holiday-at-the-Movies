@@ -1,24 +1,24 @@
-New Year's Day: 5632
-MLK Day: 5835
+New Year's Day: 5632     Cal ID   0
+MLK Day: 5835  
 Black History Month: 190675
 Groundhog Day: 220046
-Valentine's Day: 160404
-St. Patrick's Day: 209352
+Valentine's Day: 160404  Cal ID 39
+St. Patrick's Day: 209352  Cal ID 72
 Passover: 194195
-Easter: 9921
-Mother's Day: 173983
-Father's Day: 195439
+Easter: 9921  Cal ID 106
+Mother's Day: 173983  Cal ID 169
+Father's Day: 195439  Cal Id 225
 Gay Pride: 173662
-4th of July: 235503
+4th of July: 235503  Cal Id 238
 Back to School: 187282
-Rosh Hashanah: 209053
-Indigenous People's Day: 215162
-Halloween: 3335
-Thanksgiving: 4543
-Hanukkah: 209321
-Christmas: 207317
-New Years Eve: 613
-Friday the 13th: 163652
+Rosh Hashanah: 209053  Cal Id 278
+Indigenous People's Day: 215162 Cal ID 338
+Halloween: 3335 Cal Id 359
+Thanksgiving: 4543 Cal Id 466
+Hanukkah: 209321 Cal 496
+Christmas: 207317 Cal Id 510
+New Years Eve: 613 Cal Id 515
+Friday the 13th: 163652  Cal Id 262
 
 Action          28
 Adventure       12
