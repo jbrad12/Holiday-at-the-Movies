@@ -79,7 +79,9 @@ function getMovie(holidays) {
 
         for (var i = 0; i < 6; i++) {
             $("#title-" + [i]).text(response.results[i].title)
-            $("#poster-" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[i].backdrop_path )
+            $("#poster-" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[i].poster_path )
+            $("#plot-" + [i]).text(response.results[i].overview)
+
         }
 
       //poster path   http://image.tmdb.org/t/p/w185/
