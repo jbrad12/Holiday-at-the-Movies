@@ -1,27 +1,3 @@
-.fi-social-facebook {
-    color: dodgerblue;
-    font-size: 2rem;
-  }
-  .fi-social-youtube {
-    color: red;
-    font-size: 2rem;
-  }
-  .fi-social-pinterest {
-    color: darkred;
-    font-size: 2rem;
-  }
-  i.fi-social-instagram {
-    color: brown;
-    font-size: 2rem;
-  }
-  i.fi-social-tumblr {
-    color: navy;
-    font-size: 2rem;
-  }
-  .fi-social-twitter {
-    color: skyblue;
-    font-size: 2rem;
-  }
 
   #datepicker {
     width: 150px;
@@ -36,12 +12,12 @@
   }
   
   form .form-icons .input-group-label {
-    background-color: #1779ba;
-    border-color: #1779ba;
+    background-color: gray;
+    border-color: gray;
   }
   
   form .form-icons .input-group-field {
-    border-color: #1779ba;
+    border-color: gray;
   }
   
   form .form-icons .fa {
@@ -64,11 +40,13 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom:30px;
+    opacity: 0.875;
   }
   
   .hero-section .hero-section-text {
     color: #fefefe;
-    text-shadow: 1px 1px 2px #0a0a0a;
+    text-shadow: 5px 5px 5px black;
+    font-weight: bold;
   }
 
   
@@ -83,3 +61,27 @@
     text-align: center;
     padding: 8px;
   }
+
+  #movie-choices {
+    margin-bottom: 75px;
+  }
+
+  #date {
+    text-align: left;
+  }
+
+
+  #movie-main {
+    display: inline;
+    text-align: center;
+  }
+
+
+  #poster-main {
+    display: inline;
+  }
+
+  .has-submenu {
+    text-align: left;
+  }
+
