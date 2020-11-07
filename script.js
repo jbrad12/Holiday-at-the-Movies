@@ -73,6 +73,18 @@ function getMovie(holidays) {
       method: "GET"
   }).then(function (response) {
       console.log(response)
+      //test
+      //$("#search-btn").on("click", function(event){
+        event.preventDefault();
+
+        for (var i = 0; i < 6; i++) {
+            $("#title-" + [i]).text(response.results[i].title)
+            $("#poster-" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[i].backdrop_path )
+        }
+
+      //poster path   http://image.tmdb.org/t/p/w185/
+      //test
+    //})
   })
 }
 //Calendarific
