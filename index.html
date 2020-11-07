@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Holidays At The Movies</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
@@ -21,43 +21,86 @@
 <div class="row">
   <div class="medium-4 columns">
     <form>
-      <div class="form-icons">
-        <h4>What are you looking for?</h4>
+      <div class="form">
+        <h4>Find a Holiday Movie!</h4>
 
         <div id="date">Date: <input type="text" id="datepicker" placeholder="Select a Date"></div>
-           
-        <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
-          <li class="has-submenu"><a href="#">Rating</a>
-            <ul class="submenu menu vertical" data-submenu>
-              <li><a href="#">G</a></li>
-              <li><a href="#">PG</a></li>
-              <li><a href="#">PG-13</a></li>
-              <li><a href="#">R</a></li>
-              <li><a href="#">Any</a></li>
-            </ul>
-          </li>
-        </ul>
-
-        <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
-          <li class="has-submenu"><a href="#">Genre</a>
-            <ul class="submenu menu vertical" data-submenu>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Comedy</a></li>
-              <li><a href="#">Drama</a></li>
-              <li><a href="#">Romance</a></li>
-            </ul>
-          </li>
-        </ul>
-    
-        <div class="input-group">
-          <input class="input-group-field" type="text" placeholder="Keyword">
-        </div>
+        
+        <label for="Holiday">Pick a Nearby Holiday!<label>
+          <select name="holidays" id="holidayDropdown" placeholder="holiday">
+            <option value="" disabled selected>Select a Holiday</option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+          </select>
+        
+        <label for="Rating">Select Your Movie Rating</label>
+          <select name="ratings" id="ratingDropdown">
+            <option value="" disabled selected>Select a Rating</option>
+            <option>G</option>
+            <option>PG</option>
+            <option>PG-13</option>
+            <option>R</option>
+            <option>Any</option>
+          </select>
+       
+        <label for="Genre">Select a Genre!</label>
+          <select name="Genre" id="genreDropdown">
+            <option value="" disabled selected>Select a Genre</option>
+            <option>Any</option>
+            <option>Action</option>
+            <option>Adventure</option>
+            <option>Animation</option>
+            <option>Comedy</option>
+            <option>Crime</option>
+            <option>Documentary</option>
+            <option>Drama</option>
+            <option>Family</option>
+            <option>Fantasy</option>
+            <option>History</option>
+            <option>Horror</option>
+            <option>Music</option>
+            <option>Mystery</option>
+            <option>Romance</option>
+            <option>Science Fiction</option>
+            <option>TV Movie</option>
+            <option>Thriller</option>
+            <option>War</option>
+            <option>Western</option>
+          </select>
+          
+          <label for="Genre 2nd">Select a Second Genre! (optional)</label>
+          <select name="Genre2" id="genreDropdown2">
+            <option value="" disabled selected>Select a Second Genre</option>
+            <option>Any</option>
+            <option>Action</option>
+            <option>Adventure</option>
+            <option>Animation</option>
+            <option>Comedy</option>
+            <option>Crime</option>
+            <option>Documentary</option>
+            <option>Drama</option>
+            <option>Family</option>
+            <option>Fantasy</option>
+            <option>History</option>
+            <option>Horror</option>
+            <option>Music</option>
+            <option>Mystery</option>
+            <option>Romance</option>
+            <option>Science Fiction</option>
+            <option>TV Movie</option>
+            <option>Thriller</option>
+            <option>War</option>
+            <option>Western</option>
+          </select> 
       </div>
-    
+
       <button id="search-btn" class="button expanded">Search</button>
     </form>
   </div>
-  <div id="movie-main" class="medium-8 columns">
+
+  <div id="movie-main" class="medium-8 columns hide">
     <img src="https://placehold.it/400x200&text=cool movie to watch" alt="article promo image" id="poster-0">
     <h4>Plot</h4>
     <p id="plot-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum alias placeat inventore facere ducimus molestiae saepe dolor dolores assumenda molestias nobis quaerat nihil facilis libero, velit quia. Odio, repellendus molestias?</p>
@@ -66,13 +109,13 @@
 
 <hr>
 
-<div class="row column">
+<div class="row column hide">
   <h4 style="margin: 0;" class="text-center">Movie Choices</h4>
 </div>
 
 <hr>
 
-<div class="row small-up-3 medium-up-4 large-up-5" id="movie-choices">
+<div class="row small-up-3 medium-up-4 large-up-5 hide" id="movie-choices">
 
   <div class="column">
     <img src="https://placehold.it/400x370&text=Watch me!" alt="image for movie" id="poster-1">
