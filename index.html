@@ -24,27 +24,15 @@
       <div class="form">
         <h4>Find a Holiday Movie!</h4>
 
-        <div id="date">Date: <input type="text" id="datepicker" placeholder="Select a Date"></div>
-        
-        <label for="Holiday">Pick a Nearby Holiday!<label>
+        <div id="date">First Enter the Date You're Looking For: <input type="text" id="datepicker" placeholder="Select a Date"></div>
+        <button type="submit" id="date-search-btn" class="button expanded">SUBMIT</button>
+
+      <div class="search-Parameters hide">
+        <label for="Holiday">Pick your Holiday<label>
           <select name="holidays" id="holidayDropdown" placeholder="holiday">
             <option value="" disabled selected>Select a Holiday</option>
-            <option>Christmas Day</option>
-            <option>Halloween</option>
-            <option>Valentine's Day</option>
-            <option></option>
           </select>
         
-        <label for="Rating">Select Your Movie Rating</label>
-          <select name="ratings" id="ratingDropdown">
-            <option value="" disabled selected>Select a Rating</option>
-            <option>G</option>
-            <option>PG</option>
-            <option>PG-13</option>
-            <option>R</option>
-            <option>Any</option>
-          </select>
-       
         <label for="Genre">Select a Genre!</label>
           <select name="Genre" id="genreDropdown">
             <option value="" disabled selected>Select a Genre</option>
@@ -94,11 +82,13 @@
             <option>War</option>
             <option>Western</option>
           </select> 
-      </div>
+    
 
-      <button id="search-btn" class="button expanded">Search</button>
+        <button id="search-btn" class="button expanded">Search</button>
+      </div>
     </form>
   </div>
+</div>
 
   <div id="movie-main" class="medium-8 columns hide">
     <img src="https://placehold.it/400x200&text=cool movie to watch" alt="article promo image" id="poster0">
