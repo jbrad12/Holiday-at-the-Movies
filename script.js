@@ -171,6 +171,7 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating0").text("Rated: " + rating)
+            console.log(response)
           })
 
           var movieTitle1 = response.results[1].title
@@ -183,6 +184,7 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating1").text("Rated: " + rating)
+            console.log("rating1:", responseb694e)
           })
 
           var movieTitle2 = response.results[2].title
@@ -219,6 +221,7 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating4").text("Rated: " + rating)
+            console.log("rating4:",response)
           })
 
           var movieTitle5 = response.results[5].title
@@ -231,6 +234,7 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating5").text("Rated: " + rating)
+            console.log("response5:",response)
           })
 
 
@@ -275,6 +279,8 @@ function getMovie(holidays) {
         //   }
         //Ratings End
 
+
+        //Print title, poster, plot, genre
         for (var i = 0; i < 6; i++) {
             $("#title" + [i]).text(response.results[i].title)
             $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[i].poster_path )
@@ -291,7 +297,7 @@ function getMovie(holidays) {
             if (getGenre3 === undefined) {convertGenre3=""}
               else (convertGenre3 = ", " + genreIDGet[getGenre3])
             $("#genre" + [i]).text("Genre: " + convertGenre0 + convertGenre1 + convertGenre2 + convertGenre3)
-
+          //end
            
         }
 
@@ -307,8 +313,10 @@ function getMovie(holidays) {
 
 
 //Calendarific
-$("#search-btn").on("click", function(event){
+//Calendarific
+$("#date-search-btn").on("click", function(event){
   event.preventDefault();
+  $(".search-Parameters").removeClass("hide")
 
 
 //Calender input
@@ -322,14 +330,16 @@ $("#search-btn").on("click", function(event){
 
   console.log("month:", month)
   console.log("year:", year)
-if (month == 11) {var index = 466}
-if (month == 10) {var index = 359}
-if (month == 12 && day < 26) {var index = 510}
-if (month == 12 && day > 25) {var index = 0}
-if (month == 2 && day < 3) {var index = 39}
-if (month == 2 && day > 2) {var index = 39}
-if (month == 3) {var index = 72}
-if (month == 4) {var index = 106}
+  if (month == 2 && day < 3) {var index = 26}
+  if (month == 2 && day > 2) {var index = 39}
+  if (month == 2) {var index = 24}
+  if (month == 3) {var index = 72}
+  if (month == 4) {var index = 106}
+  if (month == 10 && year == 2020) {var index = 438}
+  if (month == 11) {var index = 466}
+  if (month == 12 && day < 26) {var index = 510}
+  if (month == 12 && day > 25) {var index = 0}
+
 // if (month == 8 && day == 13 && year == 2021) {var index = }
 
 
@@ -345,17 +355,23 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   var holidays = response.response.holidays[index].name
   console.log("holidays response:", response.response.holidays[index])
   console.log("holidays:",response)
-  getMovie(holidays)
+  
+  
+  holidayDiv = $("<option>")
+  holidayDiv.text(holidays)
+  $("#holidayDropdown").append(holidayDiv)
 
   })
 //End Calendar Input
 
-
-//Holiday Dropdown Input
-  } else {console.log("holiday dropdown:", $("#holidayDropdown option:selected").text())
+// ​//Holiday Dropdown Input
+$("#search-btn").on("click", function(event){
+    event.preventDefault()
+    console.log("holiday dropdown:", $("#holidayDropdown option:selected").text())
       var holidays = $("#holidayDropdown option:selected").text();
       getMovie(holidays)
-  }
+  })
+}
 //End Holiday Dropdown Input
 })
 // End Calendarific 
