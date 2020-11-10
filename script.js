@@ -136,7 +136,39 @@ var holidayID = {
   "Friday the 13th": "163652"
 }
 
-
+var convertHolidayName = {
+  "New Year's Day": "New Year's Day",
+  //late january
+  "Martin Luther King Jr. Day": "Martin Luther King Jr. Day",
+  //february
+  "First Day of Black History Month": "Black History Month",
+  //february 2
+  "Groundhog Day": "Groundhog Day",
+  "Valentine's Day": "Valentine's Day",
+  //march 17
+  "St. Patrick's Day": "St. Patrick's Day",
+  //march 24-april 4
+  "Passover (first day)": "Passover",
+  //april 4
+  "Easter Sunday": "Easter",
+  //may 9
+  "Mother's Day": "Mother's Day",
+  //june 20
+  "Father's Day": "Father's Day",
+  "Independence Day": "4th of July",
+  //september 6-8
+  "Rosh Hashana": "Rosh Hashana",
+  //october 11
+  "Indigenous People's Day": "Indigenous People's Day",
+  "Halloween": "Halloween",
+  //november 26
+  "Thanksgiving Day": "Thanksgiving",
+  //december 10-18
+  "Chanukah/Hanukkah (first day)": "Hanukkah",
+  "Christmas Day": "Christmas",
+  "New Year's Eve": "New Year's Eve",
+  "Friday the 13th": "Friday the 13th"
+}
 
 //API Calls
 
@@ -236,47 +268,6 @@ function getMovie(holidays) {
             $("#rating5").text("Rated: " + rating)
             console.log("response5:",response)
           })
-
-
-      //   for (var i = 0; i <= 6; i++) {
-      //   var movieTitle = response.results[i].title
-      //   var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle + "&apikey=b09a14fe";
-
-      //   // Creates AJAX call for the specific movie button being clicked
-      //   $.ajax({
-      //     url: queryURLRating,
-      //     method: "GET"
-      //   }).then(function(response) {
-      //     console.log("omdb:", response)
-      //     for (var i = 0; i < 6; i++) {
-      //     var rating = response.Rated[i]
-      //     // $("#rating" + i).text(rating)
-      //   }
-      // })
-      // }
-        // for (var i = 0; i < 6; i++) {
-
-        
-          
-        //     var id = response.results[i].id
-        //     console.log(id + " this is the id")
-        //     var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
-        //     var queryURL4 = "https://api.themoviedb.org/3/movie/" + id + "/release_dates?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc"
-        //     $.ajax({
-        //     url: queryURL4,
-        //     method: "GET"
-        //     }).then(function (output) {
-
-        //       for (var i = 0; i < 6; i++) {
-
-        //       console.log("release dates:", output)
-        //       console.log(output.results[0].release_dates[0].certification)
-        //       $("#rating-" + [i]).text(output.results[0].release_dates[0].certification)
-
-        //       }
-        //     })
-
-        //   }
         //Ratings End
 
 
@@ -355,10 +346,11 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   var holidays = response.response.holidays[index].name
   console.log("holidays response:", response.response.holidays[index])
   console.log("holidays:",response)
-  
+  var convertHolName = convertHolidayName[holidays]
+  console.log(convertHolName)
   
   holidayDiv = $("<option>")
-  holidayDiv.text(holidays)
+  holidayDiv.text(convertHolName)
   $("#holidayDropdown").append(holidayDiv)
 
   })
