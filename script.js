@@ -214,9 +214,14 @@ function getMovie(holidays) {
   console.log("holidayID[holidays]:", holidayID[holidays])
   var convertBackHolName = convertBackHolidayName[holidays]
   console.log("convert back:", convertBackHolName)
+  var genre1 = $("#genreDropdown1").val()
+  var genre2 = $("#genreDropdown2").val()
+  console.log("genre1:", genre1)
   
   var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
-  var queryURL = "https://api.themoviedb.org/3/keyword/" + holidayID[convertBackHolName] + "/movies?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc"
+  var queryURL = "https://api.themoviedb.org/3/discover/movie?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc&include_adult=false&with_keywords=" + holidayID[convertBackHolName] + "&with_genres=" + genreIDSet[genre1] + "| " + genreIDSet[genre2]
+
+  // var queryURL = "https://api.themoviedb.org/3/keyword/" + holidayID[convertBackHolName] + "/movies?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc"
   $.ajax({
       url: queryURL,
       method: "GET"
@@ -292,18 +297,18 @@ function getMovie(holidays) {
             console.log("rating4:",response)
           })
 
-          var movieTitle5 = response.results[5].title
-          var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle5 + "&apikey=b09a14fe";
+          // var movieTitle5 = response.results[5].title
+          // var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle5 + "&apikey=b09a14fe";
   
-          // Creates AJAX call for the specific movie button being clicked
-          $.ajax({
-            url: queryURLRating,
-            method: "GET"
-          }).then(function(response) {
-            var rating = response.Rated
-            $("#rating5").text("Rated: " + rating)
-            console.log("response5:",response)
-          })
+          // // Creates AJAX call for the specific movie button being clicked
+          // $.ajax({
+          //   url: queryURLRating,
+          //   method: "GET"
+          // }).then(function(response) {
+          //   var rating = response.Rated
+          //   $("#rating5").text("Rated: " + rating)
+          //   console.log("response5:",response)
+          // })
         //Ratings End
 
 
@@ -339,13 +344,9 @@ function getMovie(holidays) {
   // })
 }
 
-function clearResults () {
-  $("#holidayDropdown").empty()
-}
-
 //Calendarific
 $("#date-search-btn").on("click", function(event){
-  clearResults()
+  $("#holidayDropdown").empty()
   event.preventDefault();
   $(".search-Parameters").removeClass("hide")
   $(".line").removeClass("hide")
