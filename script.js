@@ -371,7 +371,7 @@ $("#date-search-btn").on("click", function(event){
   if (month == 6 && year == 2021)
   if (month == 7 && year == 2021)
   if (month == 8 && year == 2021)
-  if (month == 9 && year == 2021)
+  if (month == 9 && year == 2021) 
   if (month == 10 && year == 2020) {var index = 438; var index2 = 466}
   if (month == 11) {var index = 466; var index2 = 438; var index3 = 510}
   if (month == 12) {var index = 466; var index2 = 510; var index3 = 0}
@@ -408,6 +408,8 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   holidayDiv2.text(convertHolName2)
   holidayDiv3.text(convertHolName3)
   $("#holidayDropdown").append(holidayDiv, holidayDiv2, holidayDiv3)
+
+  console.log(response)
 
   })
 //End Calendar Input
