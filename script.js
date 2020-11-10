@@ -76,7 +76,8 @@ var genreIDSet = {
   "TV Movie":"10770",
   "Thriller":"53",
   "War":"10752",
-  "Western":"37"
+  "Western":"37",
+  "Any":"28 | 12 | 16 | 35 | 80 | 99 | 18 | 10751 | 14 | 36 | 27 | 10402 | 9648 | 10749 | 878 | 10770 | 53 | 10752 | 37"
   }
 
 var genreIDGet = {
@@ -121,6 +122,7 @@ var holidayID = {
   "Mother's Day": "173983",
   //june 20
   "Father's Day": "195439",
+  //july 4
   "Independence Day": "235503",
   //september 6-8
   "Rosh Hashana": "209053",
@@ -371,12 +373,13 @@ $("#date-search-btn").on("click", function(event){
   if (month == 6 && year == 2021)
   if (month == 7 && year == 2021)
   if (month == 8 && year == 2021)
+  if (month == 8 && day > 8 && day < 18 && year == 2021) {var index = 262}
   if (month == 9 && year == 2021) 
   if (month == 10 && year == 2020) {var index = 438; var index2 = 466}
   if (month == 11) {var index = 466; var index2 = 438; var index3 = 510}
-  if (month == 12) {var index = 466; var index2 = 510; var index3 = 0}
+  if (month == 12) {var index = 510; var index2 = 466; var index3 = 0}
 
-// if (month == 8 && day == 13 && year == 2021) {var index = }
+
 
 
 var apiKey2 = "&api_key=b9ec0bca17bd0a622c5f4df29dc9cfa0894bc535"
