@@ -310,7 +310,8 @@ function getMovie(holidays) {
         //Print title, poster, plot, genre
         for (var i = 0; i < 6; i++) {
             $("#title" + [i]).text(response.results[i].title)
-            $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[i].poster_path )
+            $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[i].poster_path)
+            $("#poster" + i).attr("alt", response.results[i].title)
             $("#plot" + [i]).text(response.results[i].overview)
             var getGenre0 = response.results[i].genre_ids[0]
             var convertGenre0 = genreIDGet[getGenre0]
@@ -347,6 +348,7 @@ $("#date-search-btn").on("click", function(event){
   clearResults()
   event.preventDefault();
   $(".search-Parameters").removeClass("hide")
+  $(".line").removeClass("hide")
 
 
 //Calender input
