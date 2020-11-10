@@ -170,6 +170,40 @@ var convertHolidayName = {
   "Friday the 13th": "Friday the 13th"
 }
 
+var convertBackHolidayName = {
+  "New Year's Day": "New Year's Day",
+  //late january
+  "Martin Luther King Jr. Day": "Martin Luther King Jr. Day",
+  //february
+  "Black History Month": "First Day of Black History Month",
+  //february 2
+  "Groundhog Day": "Groundhog Day",
+  "Valentine's Day": "Valentine's Day",
+  //march 17
+  "St. Patrick's Day": "St. Patrick's Day",
+  //march 24-april 4
+  "Passover": "Passover (first day)",
+  //april 4
+  "Easter": "Easter Sunday",
+  //may 9
+  "Mother's Day": "Mother's Day",
+  //june 20
+  "Father's Day": "Father's Day",
+  "4th of July": "Independence Day",
+  //september 6-8
+  "Rosh Hashana": "Rosh Hashana",
+  //october 11
+  "Indigenous People's Day": "Indigenous People's Day",
+  "Halloween": "Halloween",
+  //november 26
+  "Thanksgiving": "Thanksgiving Day",
+  //december 10-18
+  "Hanukkah": "Chanukah/Hanukkah (first day)",
+  "Christmas": "Christmas Day",
+  "New Year's Eve": "New Year's Eve",
+  "Friday the 13th": "Friday the 13th"
+}
+
 //API Calls
 
 
@@ -178,9 +212,11 @@ function getMovie(holidays) {
   console.log("holidays:", holidays)
   // var holiday = $(this).attr("value")
   console.log("holidayID[holidays]:", holidayID[holidays])
+  var convertBackHolName = convertBackHolidayName[holidays]
+  console.log("convert back:", convertBackHolName)
   
   var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
-  var queryURL = "https://api.themoviedb.org/3/keyword/" + holidayID[holidays] + "/movies?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc"
+  var queryURL = "https://api.themoviedb.org/3/keyword/" + holidayID[convertBackHolName] + "/movies?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc"
   $.ajax({
       url: queryURL,
       method: "GET"
@@ -216,7 +252,7 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating1").text("Rated: " + rating)
-            console.log("rating1:", responseb694e)
+            console.log("rating1:", response)
           })
 
           var movieTitle2 = response.results[2].title
@@ -302,10 +338,13 @@ function getMovie(holidays) {
   // })
 }
 
+function clearResults () {
+  $("#holidayDropdown").empty()
+}
 
 //Calendarific
-//Calendarific
 $("#date-search-btn").on("click", function(event){
+  clearResults()
   event.preventDefault();
   $(".search-Parameters").removeClass("hide")
 
@@ -321,15 +360,18 @@ $("#date-search-btn").on("click", function(event){
 
   console.log("month:", month)
   console.log("year:", year)
-  if (month == 2 && day < 3) {var index = 26}
-  if (month == 2 && day > 2) {var index = 39}
-  if (month == 2) {var index = 24}
-  if (month == 3) {var index = 72}
-  if (month == 4) {var index = 106}
-  if (month == 10 && year == 2020) {var index = 438}
-  if (month == 11) {var index = 466}
-  if (month == 12 && day < 26) {var index = 510}
-  if (month == 12 && day > 25) {var index = 0}
+  if (month == 1 && year == 2021) {var index = 0; var index2 = 435; var index3 = 8}
+  if (month == 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
+  if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
+  if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
+  if (month == 5 && year == 2021) {var index = 169}
+  if (month == 6 && year == 2021)
+  if (month == 7 && year == 2021)
+  if (month == 8 && year == 2021)
+  if (month == 9 && year == 2021)
+  if (month == 10 && year == 2020) {var index = 438; var index2 = 466}
+  if (month == 11) {var index = 466; var index2 = 438; var index3 = 510}
+  if (month == 12) {var index = 466; var index2 = 510; var index3 = 0}
 
 // if (month == 8 && day == 13 && year == 2021) {var index = }
 
@@ -344,14 +386,25 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   }).then(function(response) {
       
   var holidays = response.response.holidays[index].name
-  console.log("holidays response:", response.response.holidays[index])
-  console.log("holidays:",response)
+  var holidays2 = response.response.holidays[index2].name
+  var holidays3 = response.response.holidays[index3].name
+  // console.log("holidays response:", response.response.holidays[index])
+  // console.log("holidays:",response)
   var convertHolName = convertHolidayName[holidays]
-  console.log(convertHolName)
+  var convertHolName2 = convertHolidayName[holidays2]
+  var convertHolName3 = convertHolidayName[holidays3]
+  // console.log(convertHolName)
   
   holidayDiv = $("<option>")
+  $(holidayDiv).addClass("clear")
+  holidayDiv2 = $("<option>")
+  $(holidayDiv2).addClass("clear")
+  holidayDiv3 = $("<option>")
+  $(holidayDiv3).addClass("clear")
   holidayDiv.text(convertHolName)
-  $("#holidayDropdown").append(holidayDiv)
+  holidayDiv2.text(convertHolName2)
+  holidayDiv3.text(convertHolName3)
+  $("#holidayDropdown").append(holidayDiv, holidayDiv2, holidayDiv3)
 
   })
 //End Calendar Input

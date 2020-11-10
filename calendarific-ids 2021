@@ -1,0 +1,441 @@
+0: {name: "New Year's Day", description: "New Year's Day is the first day of the Gregorian c…is widely used in many countries such as the USA.", country: {…}, date: {…}, type: Array(1), …}
+1: {name: "World Braille Day", description: "World Braille Day celebrates the life and achievem…ented the braille code for the visually impaired.", country: {…}, date: {…}, type: Array(1), …}
+2: {name: "Epiphany", description: "Many people in the United States annually observe …ce and a public holiday in the US Virgin Islands.", country: {…}, date: {…}, type: Array(1), …}
+3: {name: "Orthodox Christmas Day", description: "Many Orthodox Christian churches in countries such…y on or near January 7 in the Gregorian calendar.", country: {…}, date: {…}, type: Array(1), …}
+4: {name: "International Programmers' Day", description: "Many people celebrate International Programmers’ D…on September 13 or on September 12 in leap years.", country: {…}, date: {…}, type: Array(1), …}
+5: {name: "Stephen Foster Memorial Day", description: "Stephen Foster Memorial Day is annually observed i…, who is known as the “father of American music”.", country: {…}, date: {…}, type: Array(1), …}
+6: {name: "Orthodox New Year", description: "Many Orthodox Christian churches in countries such…ar’s Day on January 14 in the Gregorian calendar.", country: {…}, date: {…}, type: Array(1), …}
+7: {name: "World Religion Day", description: "World Religion Day fosters interfaith dialogue and understanding of all religions.", country: {…}, date: {…}, type: Array(1), …}
+8: {name: "Martin Luther King Jr. Day", description: "Martin Luther King Day marks the anniversary of th…ial American civil right leader of the same name.", country: {…}, date: {…}, type: Array(1), …}
+9: {name: "Robert E. Lee's Birthday", description: "Robert E. Lee’s birthday is an annual official sta…n Luther King’s birthday in some parts of the US.", country: {…}, date: {…}, type: Array(1), …}
+10: {name: "Robert E. Lee's Birthday", description: "Robert E. Lee’s birthday is an annual official sta…n Luther King’s birthday in some parts of the US.", country: {…}, date: {…}, type: Array(1), …}
+11: {name: "Robert E. Lee's Birthday", description: "Robert E. Lee’s birthday is an annual official sta…n Luther King’s birthday in some parts of the US.", country: {…}, date: {…}, type: Array(1), …}
+12: {name: "Idaho Human Rights Day", description: "Idaho Human Rights Day is a state holiday in Idaho…he United States, on the third Monday of January.", country: {…}, date: {…}, type: Array(1), …}
+13: {name: "Civil Rights Day", description: "Civil Rights Day is on the third Monday of January…l rights activists such as Martin Luther King Jr.", country: {…}, date: {…}, type: Array(1), …}
+14: {name: "Civil Rights Day", description: "Civil Rights Day is on the third Monday of January…l rights activists such as Martin Luther King Jr.", country: {…}, date: {…}, type: Array(1), …}
+15: {name: "Robert E. Lee's Birthday", description: "Robert E. Lee’s birthday is an annual official sta…n Luther King’s birthday in some parts of the US.", country: {…}, date: {…}, type: Array(1), …}
+16: {name: "Confederate Heroes' Day", description: "On Confederate Memorial Day remembers the soldiers…state holiday in some parts of the United States.", country: {…}, date: {…}, type: Array(1), …}
+17: {name: "Inauguration Day", description: "On Inauguration Day, the president and vice-presid…d States of America are sworn in and take office.", country: {…}, date: {…}, type: Array(1), …}
+18: {name: "World Leprosy Day", description: "World Leprosy Day brings awareness of leprosy, als…ansen's disease, and ways to prevent the disease.", country: {…}, date: {…}, type: Array(1), …}
+19: {name: "International Customs Day", description: "International Customs Day celebrates custom personnel and agencies worldwide.", country: {…}, date: {…}, type: Array(1), …}
+20: {name: "International Day of Commemoration in Memory of the Victims of the Holocaust", description: "The United Nations' (UN) International Day of Comm…ring World War II. It is on January 27 each year.", country: {…}, date: {…}, type: Array(1), …}
+21: {name: "Tu Bishvat/Tu B'Shevat", description: "Tu B’Shevat is known as the “New Year for Trees”, is a Jewish festival similar to Arbor Day.", country: {…}, date: {…}, type: Array(1), …}
+22: {name: "Kansas Day", description: "Kansas Day is an annual observance that commemorates the state's admission to the Union in 1861.", country: {…}, date: {…}, type: Array(1), …}
+23: {name: "National Freedom Day", description: "National Freedom Day in the United States is observed on February 1 each year.", country: {…}, date: {…}, type: Array(1), …}
+24: {name: "First Day of Black History Month", description: "First Day of Black History Month is a annual monthly observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+25: {name: "World Wetlands Day", description: "World Wetlands Day raises awareness about the impo…etlands play in the environment and in our lives.", country: {…}, date: {…}, type: Array(1), …}
+26: {name: "Groundhog Day", description: "Many people in the United States observe Groundhog Day on February 2.", country: {…}, date: {…}, type: Array(1), …}
+27: {name: "World Cancer Day", description: "World Cancer Day is an annual global event on February 4 to raise people’s awareness of cancer.", country: {…}, date: {…}, type: Array(1), …}
+28: {name: "Rosa Parks Day", description: "The life of American civil rights leader Rosa Park…United States on either February 4 or December 1.", country: {…}, date: {…}, type: Array(1), …}
+29: {name: "Rosa Parks Day", description: "The life of American civil rights leader Rosa Park…United States on either February 4 or December 1.", country: {…}, date: {…}, type: Array(1), …}
+30: {name: "National Wear Red Day", description: "National Wear Red Day® raises public awareness of … women and ways to avoid and combat this problem.", country: {…}, date: {…}, type: Array(1), …}
+31: {name: "International Day of Zero Tolerance for Female Genital Mutilation", description: "The International Day of Zero Tolerance for Female…practice that violates girls’ and women’s rights.", country: {…}, date: {…}, type: Array(1), …}
+32: {name: "Super Bowl", description: "The Super Bowl is the championship game of the Nat…ited States. It is played every year in February.", country: {…}, date: {…}, type: Array(1), …}
+33: {name: "International Day of Women and Girls in Science", description: "The International Day of Women and Girls in Scienc…girls play in science and technology communities.", country: {…}, date: {…}, type: Array(1), …}
+34: {name: "World Day of the Sick", description: "World Day of the Sick is a global event when people remember or pray for the sick.", country: {…}, date: {…}, type: Array(1), …}
+35: {name: "Lincoln's Birthday", description: "Lincoln’s Birthday is observed in the United State…president and was known as the Great Emancipator.", country: {…}, date: {…}, type: Array(1), …}
+36: {name: "Lincoln's Birthday", description: "Lincoln’s Birthday is observed in the United State…president and was known as the Great Emancipator.", country: {…}, date: {…}, type: Array(1), …}
+37: {name: "Chinese New Year", description: "Chinese New Year marks the first day of the New Year in the Chinese calendar.", country: {…}, date: {…}, type: Array(1), …}
+38: {name: "World Radio Day", description: "World Radio Day is an annual United Nations (UN) e…the radio in communicating information worldwide.", country: {…}, date: {…}, type: Array(1), …}
+39: {name: "Valentine's Day", description: "Valentine's Day is an occasion to celebrate romantic love.", country: {…}, date: {…}, type: Array(1), …}
+40: {name: "Statehood Day", description: "Statehood Day is a local observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+41: {name: "Presidents' Day", description: "Washington's Birthday, or Presidents' Day, honors …resident of the United States, George Washington.", country: {…}, date: {…}, type: Array(1), …}
+42: {name: "Daisy Gatson Bates Day", description: "Daisy Gatson Bates Day is a state holiday in Arkan…ebruary. It coincides with Washington’s Birthday.", country: {…}, date: {…}, type: Array(1), …}
+43: {name: "Susan B. Anthony's Birthday", description: "Susan B Anthony Day is an national American observance that is legally recognized in some states.", country: {…}, date: {…}, type: Array(1), …}
+44: {name: "Susan B. Anthony's Birthday", description: "Susan B Anthony Day is an national American observance that is legally recognized in some states.", country: {…}, date: {…}, type: Array(1), …}
+45: {name: "Susan B. Anthony's Birthday", description: "Susan B Anthony Day is an national American observance that is legally recognized in some states.", country: {…}, date: {…}, type: Array(1), …}
+46: {name: "Susan B. Anthony's Birthday", description: "Susan B Anthony Day is an national American observance that is legally recognized in some states.", country: {…}, date: {…}, type: Array(1), …}
+47: {name: "Shrove Tuesday/Mardi Gras", description: "Shrove Tuesday is traditionally known as the day p…ves as a day of celebration, known as Mardi Gras.", country: {…}, date: {…}, type: Array(2), …}
+48: {name: "Shrove Tuesday/Mardi Gras", description: "Shrove Tuesday is traditionally known as the day p…ves as a day of celebration, known as Mardi Gras.", country: {…}, date: {…}, type: Array(1), …}
+49: {name: "Shrove Tuesday/Mardi Gras", description: "Shrove Tuesday is traditionally known as the day p…ves as a day of celebration, known as Mardi Gras.", country: {…}, date: {…}, type: Array(1), …}
+50: {name: "Shrove Tuesday/Mardi Gras", description: "Shrove Tuesday is traditionally known as the day p…ves as a day of celebration, known as Mardi Gras.", country: {…}, date: {…}, type: Array(1), …}
+51: {name: "Shrove Tuesday/Mardi Gras", description: "Shrove Tuesday is traditionally known as the day p…ves as a day of celebration, known as Mardi Gras.", country: {…}, date: {…}, type: Array(1), …}
+52: {name: "Elizabeth Peratrovich Day", description: "Elizabeth Peratrovich was one of the main driving … the territory's Anti-Discrimination Act of 1945.", country: {…}, date: {…}, type: Array(1), …}
+53: {name: "Ash Wednesday", description: "Ash Wednesday is a Christian observance that marks the first day of Lent, which is prior to Easter.", country: {…}, date: {…}, type: Array(1), …}
+54: {name: "World Day of Social Justice", description: "The United Nations' (UN) World Day of Social Justi…cial integration. It is on February 20 each year.", country: {…}, date: {…}, type: Array(1), …}
+55: {name: "International Mother Language Day", description: "The United Nations' (UN) International Mother Lang… observes the human right to use these languages.", country: {…}, date: {…}, type: Array(1), …}
+56: {name: "Purim", description: "Purim commemorates a time when Jewish people were …rth century BCE, according to the Book of Esther.", country: {…}, date: {…}, type: Array(1), …}
+57: {name: "Linus Pauling Day", description: "Linus Pauling Day is a state holiday on February 28 in Oregon, USA.", country: {…}, date: {…}, type: Array(1), …}
+58: {name: "Zero Discrimination Day", description: "Discrimination Day highlights the negative impacts…ion and promotes tolerance, compassion and peace.", country: {…}, date: {…}, type: Array(1), …}
+59: {name: "Self-Injury Awareness Day", description: "", country: {…}, date: {…}, type: Array(1), …}
+60: {name: "St. David's Day", description: "Many Welsh communities in the United States celebr…id, and their links with Wales on St David’s Day.", country: {…}, date: {…}, type: Array(2), …}
+61: {name: "Casimir Pulaski Day", description: "Casimir Pulaski Day is a day off for some schools …ois, USA, on the first Monday of March each year.", country: {…}, date: {…}, type: Array(1), …}
+62: {name: "First Day of Women's History Month", description: "First Day of Women's History Month is a annual monthly observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+63: {name: "Texas Independence Day", description: "Texas Independence Day is a legal holiday in Texas, in the United States.", country: {…}, date: {…}, type: Array(1), …}
+64: {name: "Read Across America Day", description: "Read Across America Day is observed in the United States on March 2 each year.", country: {…}, date: {…}, type: Array(1), …}
+65: {name: "Town Meeting Day", description: "The state of Vermont, in the USA, holds its Town M…ting Day on the first Tuesday of March each year.", country: {…}, date: {…}, type: Array(1), …}
+66: {name: "World Wildlife Day", description: "World Wildlife Day celebrates all flora and fauna, including animals, on Earth.", country: {…}, date: {…}, type: Array(1), …}
+67: {name: "Employee Appreciation Day", description: "Employee Appreciation Day is a US unofficial obser…ies, aimed at helping employers keep their staff.", country: {…}, date: {…}, type: Array(1), …}
+68: {name: "International Women's Day", description: "International Women’s Day celebrates women’s achievements worldwide and throughout history.", country: {…}, date: {…}, type: Array(1), …}
+69: {name: "Isra and Mi'raj", description: "Isra and Mi'raj (Isra Me'raj, Israa and Mi'raaj, L…ca to Jerusalem, ascended to heaven and returned.", country: {…}, date: {…}, type: Array(1), …}
+70: {name: "World Kidney Day", description: " World Kidney Day is an annual observation that at… by those who suffer from Chronic Kidney Disease.", country: {…}, date: {…}, type: Array(1), …}
+71: {name: "Daylight Saving Time starts", description: "Daylight Saving Time starts in the USA", country: {…}, date: {…}, type: Array(1), …}
+72: {name: "St. Patrick's Day", description: "St Patrick's Day marks the life and deeds of St Pa…. It is an Irish-American celebration in the USA.", country: {…}, date: {…}, type: Array(2), …}
+73: {name: "Evacuation Day", description: "Evacuation Day in Suffolk County, Massachusetts, c…ar, which saw the British troops evacuate Boston.", country: {…}, date: {…}, type: Array(1), …}
+74: {name: "March Equinox", description: "March Equinox in the USA (New York)", country: {…}, date: {…}, type: Array(1), …}
+75: {name: "International Day of Happiness", description: "International Day of Happiness aims to promote the idea that the pursuit of happiness is universal.", country: {…}, date: {…}, type: Array(1), …}
+76: {name: "International Day for the Elimination of Racial Discrimination", description: "The United Nations’ (UN) International Day for the… Discrimination is annually observed on March 21.", country: {…}, date: {…}, type: Array(1), …}
+77: {name: "World Poetry Day", description: "World Poetry Day celebrates poetry around the world on March 21 each year.", country: {…}, date: {…}, type: Array(1), …}
+78: {name: "International Day of Nowruz", description: "The UN’s International Day of Nowruz, also known a…ooz or No Ruz, is observed on March 21 each year.", country: {…}, date: {…}, type: Array(1), …}
+79: {name: "World Down Syndrome Day", description: "World Down Syndrome Day is held on March 21 every year.", country: {…}, date: {…}, type: Array(1), …}
+80: {name: "International Day of Forests", description: "International Day of Forests raises awareness on f…nd trees, including their role in climate change.", country: {…}, date: {…}, type: Array(1), …}
+81: {name: "World Water Day", description: "World Water Day aims to increase people's awarenes…of the water's importance in all aspects of life.", country: {…}, date: {…}, type: Array(1), …}
+82: {name: "World Meteorological Day", description: "World Meteorological Day marks the anniversary of …l Organization's establishment on March 23, 1950.", country: {…}, date: {…}, type: Array(1), …}
+83: {name: "World Tuberculosis Day", description: "World Tuberculosis Day is annually held on March 2…f tuberculosis and ways to eradicate the disease.", country: {…}, date: {…}, type: Array(1), …}
+84: {name: "International Day for the Right to the Truth conce… Rights Violations and for the Dignity of Victims", description: "March 24 is the UN’s International Day for the Rig… Rights Violations and for the Dignity of Victims", country: {…}, date: {…}, type: Array(1), …}
+85: {name: "International Day of Remembrance of Slavery Victims and the Transatlantic Slave Trade", description: "The International Day of Remembrance of the Victim…into slavery in North, Central and South America.", country: {…}, date: {…}, type: Array(1), …}
+86: {name: "International Day of Solidarity with Detained and Missing Staff Members", description: "The UN’s International Day of Solidarity with Deta…ssing Staff Members is annually held on March 25.", country: {…}, date: {…}, type: Array(1), …}
+87: {name: "Maryland Day", description: "Maryland Day commemorates the arrival of Lord Balt…Maryland, the United States, in the 17th century.", country: {…}, date: {…}, type: Array(1), …}
+88: {name: "Prince Jonah Kuhio Kalanianaole Day", description: "Prince Jonah Kuhio Kalanianaole Day is annually he…arch 26 to honor Prince Jonah Kuhio Kalanianaole.", country: {…}, date: {…}, type: Array(1), …}
+89: {name: "Earth Hour", description: "Earth Hour is an annual event in which many people…n their lights off on the last Saturday in March.", country: {…}, date: {…}, type: Array(1), …}
+90: {name: "Palm Sunday", description: "Palm Sunday in the United States celebrates Jesus …alem. It is also the Sunday before Easter Sunday.", country: {…}, date: {…}, type: Array(1), …}
+91: {name: "Passover (first day)", description: " Passover marks the Israelites' liberation from sl…nd their exodus from Egypt around 3000 years ago.", country: {…}, date: {…}, type: Array(1), …}
+92: {name: "Seward's Day", description: "Seward’s Day is a state holiday in Alaska, in the United States, on the last Monday of March.", country: {…}, date: {…}, type: Array(1), …}
+93: {name: "National Vietnam War Veterans Day", description: "National Vietnam War Veterans Day is an US observa…litary members who served during the Vietnam War.", country: {…}, date: {…}, type: Array(1), …}
+94: {name: "César Chávez Day", description: "César Chávez Day celebrates the birthday of César Estrada Chávez.", country: {…}, date: {…}, type: Array(1), …}
+95: {name: "César Chávez Day", description: "César Chávez Day celebrates the birthday of César Estrada Chávez.", country: {…}, date: {…}, type: Array(1), …}
+96: {name: "César Chávez Day", description: "César Chávez Day celebrates the birthday of César Estrada Chávez.", country: {…}, date: {…}, type: Array(1), …}
+97: {name: "César Chávez Day", description: "César Chávez Day celebrates the birthday of César Estrada Chávez.", country: {…}, date: {…}, type: Array(1), …}
+98: {name: "Maundy Thursday", description: "Maundy Thursday, which is also known as Holy Thursday, is the day before Good Friday.", country: {…}, date: {…}, type: Array(1), …}
+99: {name: "April Fool's Day", description: "April Fool's Day, on April 1, is a day to play practical jokes and tricks.", country: {…}, date: {…}, type: Array(1), …}
+[100 … 199]
+100: {name: "World Autism Awareness Day", description: "World Autism Awareness Day raises an awareness of …le, particularly children, with autism worldwide.", country: {…}, date: {…}, type: Array(1), …}
+101: {name: "Good Friday", description: "Good Friday commemorates Jesus Christ's crucifixion.", country: {…}, date: {…}, type: Array(2), …}
+102: {name: "Pascua Florida Day", description: "Pascua Florida Day, which usually falls on April 2, is a state day in Florida, USA.", country: {…}, date: {…}, type: Array(1), …}
+103: {name: "Holy Saturday", description: "Holy Saturday is the day before Easter Sunday in the United States.", country: {…}, date: {…}, type: Array(1), …}
+104: {name: "Last Day of Passover", description: "The last day of Passover marks the end of the Passover period, which lasts for seven or eight days.", country: {…}, date: {…}, type: Array(1), …}
+105: {name: "United Nations' Mine Awareness Day", description: "The United Nations' International Day for Mine Awa…e in Mine Action is annually observed on April 4.", country: {…}, date: {…}, type: Array(1), …}
+106: {name: "Easter Sunday", description: "Easter Sunday is an important day in the Christian…st's resurrection, according to Christian belief.", country: {…}, date: {…}, type: Array(2), …}
+107: {name: "Easter Monday", description: "Easter Monday is the day after Easter Sunday. It i…al holiday in the United States of America (USA).", country: {…}, date: {…}, type: Array(2), …}
+108: {name: "International Day of Sport for Development and Peace", description: "The International Day of Sport for Development and…ve social outcomes through sporting achievements.", country: {…}, date: {…}, type: Array(1), …}
+109: {name: "National Tartan Day", description: "National Tartan Day is annually observed on April … in the founding of the United States of America.", country: {…}, date: {…}, type: Array(1), …}
+110: {name: "National Library Workers' Day", description: "National Library Workers’ Day recognizes the effor…information via books, computers and other media.", country: {…}, date: {…}, type: Array(1), …}
+111: {name: "United Nations' World Health Day", description: "The World Health Organization, the United Nations'…priorities for global health on World Health Day.", country: {…}, date: {…}, type: Array(1), …}
+112: {name: "Day of Remembrance of the Victims of the Rwanda Genocide", description: "The UN’s Day of Remembrance of the Victims of the Rwanda Genocide is observed on April 7 each year.", country: {…}, date: {…}, type: Array(1), …}
+113: {name: "Yom HaShoah", description: "Many people in the United States observe Yom Hasho…g Holocaust victims who died during World War II.", country: {…}, date: {…}, type: Array(1), …}
+114: {name: "International Day of Human Space Flight", description: "The UN’s International Day of Human Space Flight is annually held on April 12.", country: {…}, date: {…}, type: Array(1), …}
+115: {name: "Ramadan Starts", description: "Many Muslims in the United States fast in the hour…Ramadan, the ninth month in the Islamic calendar.", country: {…}, date: {…}, type: Array(1), …}
+116: {name: "Thomas Jefferson's Birthday", description: "Americans celebrate president Thomas Jefferson's Birthday on April 13.", country: {…}, date: {…}, type: Array(1), …}
+117: {name: "Yom Ha'atzmaut", description: "Many Jewish communities in the United States celeb… day of the month of Iyar in the Jewish calendar.", country: {…}, date: {…}, type: Array(1), …}
+118: {name: "Tax Day", description: "Tax Day is the deadline for United States resident…t their liability for income tax can be assessed.", country: {…}, date: {…}, type: Array(1), …}
+119: {name: "Father Damien Day", description: "Father Damien Day or Saint Damien Day is an occasi…ember the life and deeds of a Belgian missionary.", country: {…}, date: {…}, type: Array(1), …}
+120: {name: "Emancipation Day", description: "People celebrate the end of slavery and citizens' rights on Emancipation Day in the United States.", country: {…}, date: {…}, type: Array(1), …}
+121: {name: "International Day for Monuments and Sites", description: "The International Day for Monuments and Sites rais…ving historical and archeological heritage sites.", country: {…}, date: {…}, type: Array(1), …}
+122: {name: "Patriot's Day", description: "Patriot's Day commemorates the battles of Lexingto…rliest battles in the American Revolutionary War.", country: {…}, date: {…}, type: Array(1), …}
+123: {name: "Boston Marathon", description: "Boston Marathon is one of the world's oldest yearl… annually on Patriot's Day in the month of April.", country: {…}, date: {…}, type: Array(1), …}
+124: {name: "Chinese Language Day", description: "Chinese Language Day is a United Nations observanc…he organization’s 6 official languages – Chinese.", country: {…}, date: {…}, type: Array(1), …}
+125: {name: "San Jacinto Day", description: "San Jacinto Day commemorates the Battle of San Jacinto in what is now Harris County, Texas.", country: {…}, date: {…}, type: Array(1), …}
+126: {name: "Administrative Professionals Day", description: "Administrative Professionals Day® is on the Wednes…e important role of administrative professionals.", country: {…}, date: {…}, type: Array(1), …}
+127: {name: "Earth Day", description: "The United Nations' International Mother Earth Day…eness and calls for the protection of our planet.", country: {…}, date: {…}, type: Array(1), …}
+128: {name: "Oklahoma Day", description: "Oklahoma Day in the United States marks the annive…opening of Oklahoma's lands to European settlers.", country: {…}, date: {…}, type: Array(1), …}
+129: {name: "Take our Daughters and Sons to Work Day", description: "Take our Daughters and Sons to Work Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+130: {name: "World Book and Copyright Day", description: "World Book and Copyright Day is an occasion to cel…e and the connection between copyright and books.", country: {…}, date: {…}, type: Array(1), …}
+131: {name: "English Language Day", description: "English Language Day promotes the history, culture and accomplishments of the English language.", country: {…}, date: {…}, type: Array(1), …}
+132: {name: "World Malaria Day", description: "World Malaria Day is annually observed on April 25…t provide effective control of malaria worldwide.", country: {…}, date: {…}, type: Array(1), …}
+133: {name: "World Intellectual Property Day", description: "World Intellectual Property Day is annually held o…understanding of intellectual property worldwide.", country: {…}, date: {…}, type: Array(1), …}
+134: {name: "International Chernobyl Disaster Remembrance Day", description: "International Chernobyl Disaster Remembrance Day i…of the consequences of the 1986 nuclear accident.", country: {…}, date: {…}, type: Array(1), …}
+135: {name: "Confederate Memorial Day", description: "On Confederate Memorial Day remembers the soldiers…state holiday in some parts of the United States.", country: {…}, date: {…}, type: Array(1), …}
+136: {name: "Confederate Memorial Day", description: "On Confederate Memorial Day remembers the soldiers…state holiday in some parts of the United States.", country: {…}, date: {…}, type: Array(1), …}
+137: {name: "Confederate Heroes' Day", description: "On Confederate Memorial Day remembers the soldiers…state holiday in some parts of the United States.", country: {…}, date: {…}, type: Array(1), …}
+138: {name: "State Holiday", description: "On Confederate Memorial Day remembers the soldiers…state holiday in some parts of the United States.", country: {…}, date: {…}, type: Array(1), …}
+139: {name: "World Day for Safety and Health at Work", description: "The World Day for Safety and Health at Work is observed on April 28 each year.", country: {…}, date: {…}, type: Array(1), …}
+140: {name: "Day of Remembrance for all Victims of Chemical Warfare", description: "The UN’s Day of Remembrance for all Victims of Chemical Warfare is annually observed on April 29.", country: {…}, date: {…}, type: Array(1), …}
+141: {name: "Lag BaOmer", description: "Many Jewish Americans observe Lag B’Omer on the 18… day of the month of Iyar in the Jewish calendar.", country: {…}, date: {…}, type: Array(1), …}
+142: {name: "Orthodox Good Friday", description: "Many Orthodox Christians in the United States reme…up to Jesus Christ's crucifixion on Great Friday.", country: {…}, date: {…}, type: Array(1), …}
+143: {name: "International Jazz Day", description: "International Jazz Day recognizes the historical, cultural, and educational contribution of jazz.", country: {…}, date: {…}, type: Array(1), …}
+144: {name: "Arbor Day", description: "Arbor Day encourages people to plant and care for …n Nebraska, it falls on the last Friday of April.", country: {…}, date: {…}, type: Array(1), …}
+145: {name: "Kentucky Oaks", description: "The Kentucky Oaks is a rade 1 Stakes horse race he…y on the Friday before the Kentucky Derby in May.", country: {…}, date: {…}, type: Array(1), …}
+146: {name: "Orthodox Holy Saturday", description: "Many Orthodox Christians in the United States reme…rial and his descent into Hades on Holy Saturday.", country: {…}, date: {…}, type: Array(1), …}
+147: {name: "Kentucky Derby", description: "Kentucky Derby is a Grade I Stakes horse race held annually in Louisville, Kentucky in May.", country: {…}, date: {…}, type: Array(1), …}
+148: {name: "Law Day", description: "Law Day in the United States is annually held on May 1.", country: {…}, date: {…}, type: Array(1), …}
+149: {name: "Loyalty Day", description: "Loyalty Day is a special day for people to reaffir…nd to recognize the heritage of American freedom.", country: {…}, date: {…}, type: Array(1), …}
+150: {name: "National Explosive Ordnance Disposal (EOD) Day", description: "National Explosive Ordnance Disposal (EOD) Day is …nance disposal in the United States Armed Forces.", country: {…}, date: {…}, type: Array(1), …}
+151: {name: "Lei Day", description: "May Day is Lei Day in Hawai'i, celebrating Hawaiian culture or the “Aloha spirit.", country: {…}, date: {…}, type: Array(1), …}
+152: {name: "Orthodox Easter", description: "Many Orthodox Christians in the United States mark…as resurrected, according to the Christian bible.", country: {…}, date: {…}, type: Array(1), …}
+153: {name: "World Tuna Day", description: "World Tuna Day is a UN holiday designed to raise awareness of the global importance of tuna.", country: {…}, date: {…}, type: Array(1), …}
+154: {name: "Orthodox Easter Monday", description: "Many Orthodox churches in the United States observ…on the day after the Orthodox Easter Sunday date.", country: {…}, date: {…}, type: Array(1), …}
+155: {name: "World Press Freedom Day", description: "World Press Freedom Day focuses on the importance …e freedom of the press and freedom of expression.", country: {…}, date: {…}, type: Array(1), …}
+156: {name: "Kent State Shootings Remembrance", description: "Kent State Shootings Remembrance Day is a local observance in Kent, Ohio.", country: {…}, date: {…}, type: Array(1), …}
+157: {name: "Rhode Island Independence Day", description: "Rhode Island Independence Day is a day to celebrat…ation of independence from Great Britain in 1776.", country: {…}, date: {…}, type: Array(1), …}
+158: {name: "Cinco de Mayo", description: "'Cinco de Mayo' means "Fifth of May" in Spanish and is a festival of Mexican pride and heritage.", country: {…}, date: {…}, type: Array(1), …}
+159: {name: "National Nurses Day", description: "National Nurses Day is an occasion to honor the work of nurses.", country: {…}, date: {…}, type: Array(1), …}
+160: {name: "National Day of Prayer", description: "National Day of Prayer is held on the first Thursd…l faiths to pray for the country and its leaders.", country: {…}, date: {…}, type: Array(1), …}
+161: {name: "Truman Day observed", description: "Truman Day is a holiday in the state of Missouri t…ri to ever become President of the United States.", country: {…}, date: {…}, type: Array(1), …}
+162: {name: "Military Spouse Appreciation Day", description: "Appreciate and thank all the military spouses and …ers you know on Military Spouse Appreciation Day.", country: {…}, date: {…}, type: Array(1), …}
+163: {name: "Lailat al-Qadr", description: "Laylat al Qadr is most likely to be held on one of…days of month of Ramadan in the Islamic calendar.", country: {…}, date: {…}, type: Array(1), …}
+164: {name: "Time of Remembrance and Reconciliation for Those Who Lost Their Lives during the Second World War", description: "The United Nations’ (UN) Time of Remembrance and R…War is annually held over two days, from May 8-9.", country: {…}, date: {…}, type: Array(1), …}
+165: {name: "World Migratory Bird Day", description: "World Migratory Bird Day is observed the second weekend of May every year.", country: {…}, date: {…}, type: Array(1), …}
+166: {name: "World Ovarian Cancer Day", description: "World Ovarian Cancer Day aims to spread global awareness about ovarian cancer.", country: {…}, date: {…}, type: Array(1), …}
+167: {name: "Truman Day", description: "Truman Day is a holiday in the state of Missouri t…ri to ever become President of the United States.", country: {…}, date: {…}, type: Array(1), …}
+168: {name: "Victory in Europe Day", description: "Victory in Europe Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+169: {name: "Mother's Day", description: "Mother's Day celebrates the role of mothers and mother figures.", country: {…}, date: {…}, type: Array(1), …}
+170: {name: "Confederate Memorial Day", description: "On Confederate Memorial Day remembers the soldiers…state holiday in some parts of the United States.", country: {…}, date: {…}, type: Array(1), …}
+171: {name: "Confederate Memorial Day", description: "On Confederate Memorial Day remembers the soldiers…state holiday in some parts of the United States.", country: {…}, date: {…}, type: Array(1), …}
+172: {name: "International Nurses Day", description: "International Nurses Day focuses on the critical c…es around the world in maintaining public health.", country: {…}, date: {…}, type: Array(1), …}
+173: {name: "Ascension Day", description: "Ascension Day is the 40th day of Easter and commemorates the ascension of Jesus Christ into heaven.", country: {…}, date: {…}, type: Array(1), …}
+174: {name: "Eid al-Fitr", description: "Eid al-Fitr, which is on the first day of the Isla… marks the end of the month-long fast of Ramadan.", country: {…}, date: {…}, type: Array(1), …}
+175: {name: "Native American Day", description: "Native Americans' Day, on the second Monday of Oct…rts of the United States in lieu of Columbus Day.", country: {…}, date: {…}, type: Array(1), …}
+176: {name: "International Day of Families", description: "The International Day of Families is an occasion t… people, societies and cultures around the world.", country: {…}, date: {…}, type: Array(1), …}
+177: {name: "Peace Officers Memorial Day", description: "Peace Officers Memorial Day is held annually in th… officers killed or disabled in the line of duty.", country: {…}, date: {…}, type: Array(1), …}
+178: {name: "Armed Forces Day", description: "Armed Forces Day is a national observance in the U…ed States on the third Saturday of May each year.", country: {…}, date: {…}, type: Array(1), …}
+179: {name: "Preakness Stakes", description: "The Preakness Stakes is the second event in the Tr…annually held two weeks after the Kentucky Derby.", country: {…}, date: {…}, type: Array(1), …}
+180: {name: "Shavuot", description: "Shavuot, also known as the Festival of Weeks, is one of three major Jewish festivals.", country: {…}, date: {…}, type: Array(1), …}
+181: {name: "World Information Society Day", description: "World Information Society Day is celebrated each y…on can be beneficial for societies and economies.", country: {…}, date: {…}, type: Array(1), …}
+182: {name: "Emergency Medical Services for Children Day", description: "Emergency Medical Services for Children (EMSC) Day…ices (EMS) Week, May 19–25, in the United States.", country: {…}, date: {…}, type: Array(1), …}
+183: {name: "World Autoimmune / Autoinflammatory Arthritis Day", description: "World Autoimmune / Autoinflammatory Arthritis Day is a worldwide observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+184: {name: "World Day for Cultural Diversity for Dialogue and Development", description: "The World Day for Cultural Diversity for Dialogue …deepen their understanding of cultural diversity.", country: {…}, date: {…}, type: Array(1), …}
+185: {name: "National Defense Transportation Day", description: "National Defense Transportation Day occurs annually in the United States on the third Friday of May.", country: {…}, date: {…}, type: Array(1), …}
+186: {name: "International Day for Biological Diversity", description: "The International Day for Biological Diversity is …ess of issues and challenges around biodiversity.", country: {…}, date: {…}, type: Array(1), …}
+187: {name: "National Maritime Day", description: "National Maritime Day is annually observed in the … recognize the benefits of the maritime industry.", country: {…}, date: {…}, type: Array(1), …}
+188: {name: "Harvey Milk Day", description: "Harvey Milk Day is an observance that is recognize…n California, United States, on May 22 each year.", country: {…}, date: {…}, type: Array(1), …}
+189: {name: "Pentecost", description: "Many Christians in the United States observe Pentecost, also known as Whitsunday or Whit Sunday.", country: {…}, date: {…}, type: Array(1), …}
+190: {name: "International Day to End Obstetric Fistula", description: "The International Day to End Obstetric Fistula rai…tula and calls for support to tackle the problem.", country: {…}, date: {…}, type: Array(1), …}
+191: {name: "Whit Monday", description: "Many Christians in the United States will observe …which is also known as Whit Sunday or Whitsunday.", country: {…}, date: {…}, type: Array(1), …}
+192: {name: "African Liberation Day", description: "African Liberation Day celebrates African nations'…ard-fought freedom from European colonial powers.", country: {…}, date: {…}, type: Array(1), …}
+193: {name: "National Missing Children's Day", description: "National Missing Children's Day is an observation …ted to addressing the problem of child abduction.", country: {…}, date: {…}, type: Array(1), …}
+194: {name: "Day of Vesak", description: "Vesak Day is a Buddhist holiday that celebrates th…ally observed on the day of the full moon in May.", country: {…}, date: {…}, type: Array(1), …}
+195: {name: "International Day of United Nations Peacekeepers", description: "The International Day of United Nations Peacekeepe…d in United Nations (UN) peacekeeping operations.", country: {…}, date: {…}, type: Array(1), …}
+196: {name: "Trinity Sunday", description: "Trinity Sunday is the first Sunday after Pentecost…lebrated by many Christians in the United States.", country: {…}, date: {…}, type: Array(1), …}
+197: {name: "World No Tobacco Day", description: "World No Tobacco Day draws attention to the health problems caused by tobacco use.", country: {…}, date: {…}, type: Array(1), …}
+198: {name: "Memorial Day", description: "Memorial Day commemorates all Americans who have died in military service for the United States.", country: {…}, date: {…}, type: Array(1), …}
+199: {name: "Jefferson Davis' Birthday", description: "Jefferson Davis' Birthday, also known as Jefferson… a state holiday in Alabama in the United States.", country: {…}, date: {…}, type: Array(1), …}
+[200 … 299]
+200: {name: "Global Day of Parents", description: "Global Day of Parents appreciates the role of a pa…urturing and fostering growth for their children.", country: {…}, date: {…}, type: Array(1), …}
+201: {name: "Statehood Day", description: "Statehood Day marks the anniversary of the dates t…essee became the 16th state of the United States.", country: {…}, date: {…}, type: Array(1), …}
+202: {name: "Native American Day", description: "Native Americans' Day, on the second Monday of Oct…rts of the United States in lieu of Columbus Day.", country: {…}, date: {…}, type: Array(1), …}
+203: {name: "Corpus Christi", description: "Corpus Christi is observed in honor of the Holy Eucharist.", country: {…}, date: {…}, type: Array(1), …}
+204: {name: "Jefferson Davis' Birthday", description: "Jefferson Davis' Birthday, also known as Jefferson… a state holiday in Alabama in the United States.", country: {…}, date: {…}, type: Array(1), …}
+205: {name: "International Day of Innocent Children Victims of Aggression", description: "The United Nations' (UN) International Day of Inno…ms of Aggression is observed on June 4 each year.", country: {…}, date: {…}, type: Array(1), …}
+206: {name: "World Environment Day", description: "World Environment Day is held each year on June 5.…ment and enhances political attention and action.", country: {…}, date: {…}, type: Array(1), …}
+207: {name: "Belmont Stakes", description: "The Belmont Stakes is the third and final horse ra…run annually five weeks after the Kentucky Derby.", country: {…}, date: {…}, type: Array(1), …}
+208: {name: "D-Day", description: "D-Day is a special anniversary in some countries, …ion of Normandy, France, in the Second World War.", country: {…}, date: {…}, type: Array(1), …}
+209: {name: "Jefferson Davis' Birthday", description: "Jefferson Davis' Birthday, also known as Jefferson… a state holiday in Alabama in the United States.", country: {…}, date: {…}, type: Array(1), …}
+210: {name: "World Oceans Day", description: "World Oceans Day is annually observed on June 8 to…ges humanity faces to protect the world's oceans.", country: {…}, date: {…}, type: Array(1), …}
+211: {name: "Kamehameha Day", description: "Kamehameha Day, held annually on June 11, honors K…who united and established the Kingdom of Hawaii.", country: {…}, date: {…}, type: Array(1), …}
+212: {name: "World Day Against Child Labour", description: "Poverty and injustice against widows is a world-wide problem addressed by International Widows' Day.", country: {…}, date: {…}, type: Array(1), …}
+213: {name: "International Albinism Awareness Day", description: "International Albinism Awareness Day aims to stop … persecution and murders of people with albinism.", country: {…}, date: {…}, type: Array(1), …}
+214: {name: "Bunker Hill Day", description: "Bunker Hill Day commemorates the Battle of Bunker …stown Peninsula, Boston Harbor, in Massachusetts.", country: {…}, date: {…}, type: Array(1), …}
+215: {name: "World Blood Donor Day", description: "On World Blood Donor Day numerous events are held …ness about the importance of safe blood supplies.", country: {…}, date: {…}, type: Array(1), …}
+216: {name: "Army Birthday", description: "Army Birthday is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+217: {name: "Flag Day", description: "Flag Day is annually held on June 14 to honor the United States flag.", country: {…}, date: {…}, type: Array(1), …}
+218: {name: "World Elder Abuse Awareness Day", description: "World Elder Abuse Awareness Day attempts to shine …ysical, emotional, and financial abuse of elders.", country: {…}, date: {…}, type: Array(1), …}
+219: {name: "International Day of Family Remittances", description: "The UN estimates that family remittances worth ove…billion US$ are transferred worldwide every year.", country: {…}, date: {…}, type: Array(1), …}
+220: {name: "World Day to Combat Desertification and Drought", description: "The United Nations' World Day to Combat Desertific…ought is observed worldwide on June 17 each year.", country: {…}, date: {…}, type: Array(1), …}
+221: {name: "International Day for the Elimination of Sexual Violence in Conflict", description: "International Day for the Elimination of Sexual Vi…id the world of conflict-related sexual violence.", country: {…}, date: {…}, type: Array(1), …}
+222: {name: "Juneteenth", description: "Juneteenth, also known as Freedom Day and Emancipa…e abolition of slavery in Texas on June 19, 1865.", country: {…}, date: {…}, type: Array(1), …}
+223: {name: "Emancipation Day", description: "Juneteenth, also known as Freedom Day and Emancipa…e abolition of slavery in Texas on June 19, 1865.", country: {…}, date: {…}, type: Array(1), …}
+224: {name: "World Refugee Day", description: "The United Nations' World Refugee Day honors refugees' courage, strength and determination.", country: {…}, date: {…}, type: Array(1), …}
+225: {name: "Father's Day", description: "Father's Day celebrates the contribution that fath…ther figures make to the lives of their children.", country: {…}, date: {…}, type: Array(1), …}
+226: {name: "West Virginia Day", description: "West Virginia Day, or WV Day, celebrates the anniv…n of the state of West Virginia on June 20, 1863.", country: {…}, date: {…}, type: Array(1), …}
+227: {name: "American Eagle Day", description: "Observed annually on June 20 in 47 American states…n Bald Eagle from a list of "endangered species".", country: {…}, date: {…}, type: Array(1), …}
+228: {name: "June Solstice", description: "June Solstice in the USA (New York)", country: {…}, date: {…}, type: Array(1), …}
+229: {name: "International Day of Yoga", description: "The International Day of Yoga is a UN-day that aim…orldwide of the many benefits of practicing yoga.", country: {…}, date: {…}, type: Array(1), …}
+230: {name: "West Virginia Day observed", description: "West Virginia Day, or WV Day, celebrates the anniv…n of the state of West Virginia on June 20, 1863.", country: {…}, date: {…}, type: Array(1), …}
+231: {name: "Public Service Day", description: "The United Nations’ Public Service Day celebrates …l governance depend on a competent civil service.", country: {…}, date: {…}, type: Array(1), …}
+232: {name: "International Widows' Day", description: "Poverty and injustice against widows is a world-wide problem addressed by International Widows' Day.", country: {…}, date: {…}, type: Array(1), …}
+233: {name: "Day of the Seafarer", description: "The Day of the Seafarer aims to acknowledge the so…on of the millions of seafarers around the world.", country: {…}, date: {…}, type: Array(1), …}
+234: {name: "International Day Against Drug Abuse and Illicit Trafficking", description: "The United Nations’ (UN) International Day Against…ise awareness about the dangers of illicit drugs.", country: {…}, date: {…}, type: Array(1), …}
+235: {name: "International Day in Support of Victims of Torture", description: "The United Nations’ (UN) International Day in Supp…re is not only unacceptable – it is also a crime.", country: {…}, date: {…}, type: Array(1), …}
+236: {name: "International Asteroid Day", description: "The United Nations established International Aster…e public awareness of the asteroid impact hazard.", country: {…}, date: {…}, type: Array(1), …}
+237: {name: "International Day of Cooperatives", description: "The United Nations' (UN) International Day of Coop…d in the achievement of social policy objectives.", country: {…}, date: {…}, type: Array(1), …}
+238: {name: "Independence Day", description: "On Independence Day, Americans celebrate the anniv…ation of Independence from Great Britain in 1776.", country: {…}, date: {…}, type: Array(1), …}
+239: {name: "Independence Day observed", description: "On Independence Day, Americans celebrate the anniv…ation of Independence from Great Britain in 1776.", country: {…}, date: {…}, type: Array(1), …}
+240: {name: "World Population Day", description: "The United Nations' (UN) World Population Day reaffirms the human right to plan for a family.", country: {…}, date: {…}, type: Array(1), …}
+241: {name: "Nathan Bedford Forrest Day", description: "Nathan Bedford Forrest Day is a local observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+242: {name: "Bastille Day", description: "Bastille Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+243: {name: "World Youth Skills Day", description: "Acquiring skills enhances youths' ability to make …rs them to gain access to changing labor markets.", country: {…}, date: {…}, type: Array(1), …}
+244: {name: "Rural Transit Day", description: "Rural Transit Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+245: {name: "Tisha B'Av", description: "Tisha B’Av is on the ninth day of the month of Av in the Jewish calendar.", country: {…}, date: {…}, type: Array(1), …}
+246: {name: "Nelson Mandela Day", description: "Nelson Mandela International Day is annually obser…an president’s contribution to peace and freedom.", country: {…}, date: {…}, type: Array(1), …}
+247: {name: "Eid al-Adha", description: "Eid-al-Adha is an Islamic festival to mark Ibrahim… 13th days of the Islamic month of Dhu al-Hijjah.", country: {…}, date: {…}, type: Array(1), …}
+248: {name: "Pioneer Day observed", description: "Pioneer Day is an annual state holiday in Utah in … to settle in a place that is now Salt Lake City.", country: {…}, date: {…}, type: Array(1), …}
+249: {name: "Pioneer Day", description: "Pioneer Day is an annual state holiday in Utah in … to settle in a place that is now Salt Lake City.", country: {…}, date: {…}, type: Array(1), …}
+250: {name: "Parents' Day", description: "Parents’ Day is celebrated in the United States on…crucial part of families and the wider community.", country: {…}, date: {…}, type: Array(1), …}
+251: {name: "National Korean War Veterans Armistice Day", description: "National Korean War Veterans Armistice Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+252: {name: "World Hepatitis Day", description: "World Hepatitis Day is observed on July 28 every y…hepatitis and encourage prevention and treatment.", country: {…}, date: {…}, type: Array(1), …}
+253: {name: "International Day of Friendship", description: "The International Day of Friendship is annually held on July 30 to celebrate friendships worldwide.", country: {…}, date: {…}, type: Array(1), …}
+254: {name: "World Day against Trafficking in Persons", description: "July 30 is the UN World Day against Trafficking in Persons", country: {…}, date: {…}, type: Array(1), …}
+255: {name: "Colorado Day", description: "Colorado Day is an annual observance that commemor…te’s birthday on August 1, 1876, and its history.", country: {…}, date: {…}, type: Array(1), …}
+256: {name: "Coast Guard Birthday", description: "Coast Guard Birthday is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+257: {name: "Purple Heart Day", description: "Purple Heart Day on August 7 commemorates the day … while serving in the United States Armed Forces.", country: {…}, date: {…}, type: Array(1), …}
+258: {name: "International Day of the World's Indigenous People", description: "The United Nations’ (UN) International Day of the …ect the rights of the world’s indigenous peoples.", country: {…}, date: {…}, type: Array(1), …}
+259: {name: "Victory Day", description: "Victory Day, also known as VJ Day, is an annual st…e Allies’ victory over Japan during World War II.", country: {…}, date: {…}, type: Array(1), …}
+260: {name: "Muharram", description: "The first day of Muharram, which is the first mont…alendar, marks the start of the Islamic New Year.", country: {…}, date: {…}, type: Array(1), …}
+261: {name: "International Youth Day", description: "The United Nations’ (UN) International Youth Day i…courage their participation in enhancing society.", country: {…}, date: {…}, type: Array(1), …}
+262: {name: "Friday the 13th", description: "Friday the 13th is a day full of superstitious beliefs in communities worldwide.", country: {…}, date: {…}, type: Array(1), …}
+263: {name: "Assumption of Mary", description: "Assumption Day is a Christian observance in the Un…the Blessed Virgin Mary was received into heaven.", country: {…}, date: {…}, type: Array(1), …}
+264: {name: "Bennington Battle Day", description: "Bennington Battle Day is a state holiday in Vermon…g the Revolutionary War in north America in 1777.", country: {…}, date: {…}, type: Array(1), …}
+265: {name: "World Humanitarian Day", description: "The United Nations’(UN) World Humanitarian Day foc… worldwide and is annually observed on August 19.", country: {…}, date: {…}, type: Array(1), …}
+266: {name: "National Aviation Day", description: "National Aviation Day is observed in the United St…rate the history and development of the aviation.", country: {…}, date: {…}, type: Array(1), …}
+267: {name: "Hawaii Statehood Day", description: "Hawaii’s Statehood Day is celebrated on the third …ommemorate the anniversary of Hawaii’s statehood.", country: {…}, date: {…}, type: Array(1), …}
+268: {name: "Senior Citizens Day", description: "National Senior Citizens Day is an observance on A…ibutions of senior citizens in the United States.", country: {…}, date: {…}, type: Array(1), …}
+269: {name: "International Day for the Remembrance of the Slave Trade and its Abolition", description: "The United Nations’ (UN) International Day for the… of the tragedy of the transatlantic slave trade.", country: {…}, date: {…}, type: Array(1), …}
+270: {name: "Women's Equality Day", description: "Women's Equality Day on August 26 is an annual obs…ghts were extended to women in the United States.", country: {…}, date: {…}, type: Array(1), …}
+271: {name: "Lyndon Baines Johnson Day", description: "Lyndon Baines Johnson Day is a state holiday in Te…s Johnson, who was the 36th president of the USA.", country: {…}, date: {…}, type: Array(1), …}
+272: {name: "International Day against Nuclear Tests", description: "The United Nations’ (UN) International Day against…approach to eliminating the use of those weapons.", country: {…}, date: {…}, type: Array(1), …}
+273: {name: "International Day of the Victims of Enforced Disappearances", description: "The International Day of the Victims of Enforced Disappearances is annually observed on August 30.", country: {…}, date: {…}, type: Array(1), …}
+274: {name: "International Overdose Awareness Day", description: " International Overdose Awareness Day is an annual…ts to remove the stigma associated with overdose.", country: {…}, date: {…}, type: Array(1), …}
+275: {name: "World Sexual Health Day", description: " World Sexual Health Day is an annual awareness da…ty and to promote sexual health around the world.", country: {…}, date: {…}, type: Array(1), …}
+276: {name: "International Day of Charity", description: "The International Day of Charity raises public awa…ss of what charities do to help minimize poverty.", country: {…}, date: {…}, type: Array(1), …}
+277: {name: "Labor Day", description: "Labor Day is a federal holiday in the United State…rates their contribution to the American economy.", country: {…}, date: {…}, type: Array(1), …}
+278: {name: "Rosh Hashana", description: "Rosh Hashana, also spelled Rosh Hashanah, is commo…hich is the seventh month in the Jewish calendar.", country: {…}, date: {…}, type: Array(1), …}
+279: {name: "Rosh Hashana", description: "Rosh Hashana, also spelled Rosh Hashanah, is commo…hich is the seventh month in the Jewish calendar.", country: {…}, date: {…}, type: Array(1), …}
+280: {name: "International Literacy Day", description: "The United Nations' (UN) International Literacy Day is held on September 8 each year.", country: {…}, date: {…}, type: Array(1), …}
+281: {name: "California Admission Day", description: "California Admission Day is an annual legal observance in California, in the United States.", country: {…}, date: {…}, type: Array(1), …}
+282: {name: "World Suicide Prevention Day", description: "World Suicide Prevention Day promotes worldwide ac…on to prevent suicides on September 10 each year.", country: {…}, date: {…}, type: Array(1), …}
+283: {name: "Patriot Day", description: "Patriot Day is held in memory of nearly 3000 peopl… Shanksville, Pennsylvania, in the United States.", country: {…}, date: {…}, type: Array(1), …}
+284: {name: "Carl Garner Federal Lands Cleanup Day", description: "Carl Garner Federal Lands Cleanup Day encourages p…s observed on the first Saturday after Labor Day.", country: {…}, date: {…}, type: Array(1), …}
+285: {name: "International Day for South-South Cooperation", description: "The United Nations Day for South-South Cooperation is observed on September 12 each year.", country: {…}, date: {…}, type: Array(1), …}
+286: {name: "National Grandparents Day", description: "National Grandparents Day is celebrated on the fir…f September after Labor Day in the United States.", country: {…}, date: {…}, type: Array(1), …}
+287: {name: "International Programmers' Day", description: "Many people celebrate International Programmers’ D…on September 13 or on September 12 in leap years.", country: {…}, date: {…}, type: Array(1), …}
+288: {name: "International Day of Democracy", description: "The United Nations’ (UN) International Day of Democracy is observed on September 15 each year.", country: {…}, date: {…}, type: Array(1), …}
+289: {name: "International Day for the Preservation of the Ozone Layer", description: "The United Nations' (UN) International Day for the…e of protecting human health and the environment.", country: {…}, date: {…}, type: Array(1), …}
+290: {name: "Yom Kippur", description: "Yom Kippur is an important Jewish holiday that fal…y of the month of Tishrei in the Jewish calendar.", country: {…}, date: {…}, type: Array(1), …}
+291: {name: "Yom Kippur", description: "Yom Kippur is an important Jewish holiday that fal…y of the month of Tishrei in the Jewish calendar.", country: {…}, date: {…}, type: Array(1), …}
+292: {name: "Still's Disease Awareness Day", description: "Still's Disease Awareness Day is a worldwide observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+293: {name: "Constitution Day and Citizenship Day", description: "Constitution Day and Citizenship Day is a combined…s in the United States on September 17 each year.", country: {…}, date: {…}, type: Array(1), …}
+294: {name: "National POW/MIA Recognition Day", description: "National POW/MIA Recognition Day is annually obser…e United States on the third Friday of September.", country: {…}, date: {…}, type: Array(1), …}
+295: {name: "Air Force Birthday", description: "Air Force Birthday is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+296: {name: "National CleanUp Day", description: "National CleanUp Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+297: {name: "First Day of Sukkot", description: "The first day of Sukkot marks the start of the Suk…s in many countries, including the United States.", country: {…}, date: {…}, type: Array(1), …}
+298: {name: "International Day of Peace", description: "The United Nations' (UN) International Day of Peac…nd governments to end conflict and promote peace.", country: {…}, date: {…}, type: Array(1), …}
+299: {name: "September Equinox", description: "September Equinox in the USA (New York)", country: {…}, date: {…}, type: Array(1), …}
+[300 … 399]
+300: {name: "Emancipation Day", description: "Emancipation Day is a state-wide observation in Ohio on September 22.", country: {…}, date: {…}, type: Array(1), …}
+301: {name: "World Maritime Day", description: "World Maritime Day is held on the last week of Sep…is up to individual governments around the world.", country: {…}, date: {…}, type: Array(1), …}
+302: {name: "International Celebrate Bisexuality Day", description: "International Celebrate Bisexuality Day, also know…s the rights of bisexual people around the world.", country: {…}, date: {…}, type: Array(1), …}
+303: {name: "Native American Day", description: "Native Americans' Day, on the second Monday of Oct…rts of the United States in lieu of Columbus Day.", country: {…}, date: {…}, type: Array(1), …}
+304: {name: "Native American Day", description: "Native Americans' Day, on the second Monday of Oct…rts of the United States in lieu of Columbus Day.", country: {…}, date: {…}, type: Array(1), …}
+305: {name: "American Indian Heritage Day", description: "American Indian Heritage Day is often observed on …iday after Thanksgiving Day in the United States.", country: {…}, date: {…}, type: Array(1), …}
+306: {name: "American Indian Heritage Day", description: "American Indian Heritage Day is often observed on …iday after Thanksgiving Day in the United States.", country: {…}, date: {…}, type: Array(1), …}
+307: {name: "Michigan Indian Day", description: "Michigan Indian Day is a state observation in the USA", country: {…}, date: {…}, type: Array(1), …}
+308: {name: "International Day for the Total Elimination of Nuclear Weapons", description: "The International Day for the Total Elimination of…s awareness about the dangers of nuclear weapons.", country: {…}, date: {…}, type: Array(1), …}
+309: {name: "Gold Star Mother's Day", description: "Gold Star Mother’s Day is annually observed in the United States on the last Sunday of September.", country: {…}, date: {…}, type: Array(1), …}
+310: {name: "Last Day of Sukkot", description: "Many Jewish communities in countries such as the U…kkot, which marks the end of the Sukkot festival.", country: {…}, date: {…}, type: Array(1), …}
+311: {name: "World Tourism Day", description: "The United Nations’ (UN) World Tourism Day is annu…27 to raise awareness on the benefits of tourism.", country: {…}, date: {…}, type: Array(1), …}
+312: {name: "American Indian Day", description: "American Indian Day is a state observation in the USA", country: {…}, date: {…}, type: Array(1), …}
+313: {name: "Shmini Atzeret", description: "Shemini Atzeret (or Shmini Atzeret) is a Jewish ho…he completion of the annual reading of the Torah.", country: {…}, date: {…}, type: Array(1), …}
+314: {name: "World Rabies Day", description: "World Rabies Day is annually observed on September…areness about rabies and how it can be prevented.", country: {…}, date: {…}, type: Array(1), …}
+315: {name: "Simchat Torah", description: "Simchat Torah (Simchas Torah or Simhat Torah) is a…he completion of the annual reading of the Torah.", country: {…}, date: {…}, type: Array(1), …}
+316: {name: "World Heart Day", description: "World Heart Day raises awareness of cardiovascular diseases and ways to reduce their risk.", country: {…}, date: {…}, type: Array(1), …}
+317: {name: "International Day of Older Persons", description: "The United Nations' (UN) International Day of Olde…ear as a special day for older persons worldwide.", country: {…}, date: {…}, type: Array(1), …}
+318: {name: "World Vegetarian Day", description: " World Vegetarian Day is an annual observation tha… animal products and to adopt a plant-based diet.", country: {…}, date: {…}, type: Array(1), …}
+319: {name: "International Day of Non-Violence", description: "The United Nations’ (UN) International Day of Non-…d on October 2 each year to promote non-violence.", country: {…}, date: {…}, type: Array(1), …}
+320: {name: "Feast of St Francis of Assisi", description: "Many Catholics in the United States, particularly …mals and the environment, on October 4 each year.", country: {…}, date: {…}, type: Array(1), …}
+321: {name: "World Habitat Day", description: "The United Nations’ (UN) World Habitat Day reflect…lements and people’s right to sufficient shelter.", country: {…}, date: {…}, type: Array(1), …}
+322: {name: "Frances Xavier Cabrini", description: "Frances Xavier Cabrini is a state holiday in the USA", country: {…}, date: {…}, type: Array(1), …}
+323: {name: "Child Health Day", description: "Child Health Day is annually celebrated in the United States on the first Monday of October.", country: {…}, date: {…}, type: Array(1), …}
+324: {name: "World Teachers' Day", description: "The United Nations' (UN) World Teachers' Day comme…o society. It is observed on October 5 each year.", country: {…}, date: {…}, type: Array(1), …}
+325: {name: "World Cerebral Palsy Day", description: "World Cerebral Palsy Day is an annual awareness ob…izations working to ensure equal rights for them.", country: {…}, date: {…}, type: Array(1), …}
+326: {name: "World Post Day", description: "World Post Day marks the anniversary of the Univer…hment in 1874. It is held on October 9 each year.", country: {…}, date: {…}, type: Array(1), …}
+327: {name: "Leif Erikson Day", description: "Leif Erikson Day honors the first Scandinavian kno…ution of the Nordic peoples to the United States.", country: {…}, date: {…}, type: Array(1), …}
+328: {name: "World Mental Health Day", description: "World Mental Health Day, which is supported by the…c awareness about mental health issues worldwide.", country: {…}, date: {…}, type: Array(1), …}
+329: {name: "International Day of the Girl Child", description: "The International Day of the Girl Child is a United Nations (UN) observance on October 11 each year.", country: {…}, date: {…}, type: Array(1), …}
+330: {name: "Columbus Day", description: "Columbus Day celebrates 15th century explorer Christopher Columbus's arrival in America in 1492.", country: {…}, date: {…}, type: Array(1), …}
+331: {name: "Columbus Day", description: "Columbus Day celebrates 15th century explorer Christopher Columbus's arrival in America in 1492.", country: {…}, date: {…}, type: Array(1), …}
+332: {name: "Columbus Day", description: "Columbus Day celebrates 15th century explorer Christopher Columbus's arrival in America in 1492.", country: {…}, date: {…}, type: Array(1), …}
+333: {name: "Fraternal Day", description: "Fraternal Day is a state holiday in the USA", country: {…}, date: {…}, type: Array(1), …}
+334: {name: "Yorktown Victory Day", description: "Yorktown Victory Day is a state holiday in the USA", country: {…}, date: {…}, type: Array(1), …}
+335: {name: "Discoverers’ Day", description: "Discoverers’ Day is a state observation in the USA", country: {…}, date: {…}, type: Array(1), …}
+336: {name: "Native American Day", description: "Native Americans' Day, on the second Monday of Oct…rts of the United States in lieu of Columbus Day.", country: {…}, date: {…}, type: Array(1), …}
+337: {name: "Native American Day", description: "Native Americans' Day, on the second Monday of Oct…rts of the United States in lieu of Columbus Day.", country: {…}, date: {…}, type: Array(1), …}
+338: {name: "Indigenous People's Day", description: "Indigenous People's Day is a state observation in the USA", country: {…}, date: {…}, type: Array(1), …}
+339: {name: "Indigenous People's Day", description: "Indigenous People's Day is a state holiday in the USA", country: {…}, date: {…}, type: Array(1), …}
+340: {name: "Indigenous People's Day", description: "Indigenous People's Day is a state observation in the USA", country: {…}, date: {…}, type: Array(1), …}
+341: {name: "American Indian Heritage Day", description: "American Indian Heritage Day is often observed on …iday after Thanksgiving Day in the United States.", country: {…}, date: {…}, type: Array(1), …}
+342: {name: "International Day for Natural Disaster Reduction", description: "The United Nations’ (UN) International Day for Nat…lobal culture of natural disaster risk reduction.", country: {…}, date: {…}, type: Array(1), …}
+343: {name: "Navy Birthday", description: "Navy Birthday celebrates the establishment of the United States Navy on October 13, 1775.", country: {…}, date: {…}, type: Array(1), …}
+344: {name: "World Sight Day", description: "World Sight Day is annually held on the second Thu… awareness about blindness and vision impairment.", country: {…}, date: {…}, type: Array(1), …}
+345: {name: "International Day of Rural Women", description: "The United Nations’ (UN) International Day of Rura…ral women’s role in supporting their communities.", country: {…}, date: {…}, type: Array(1), …}
+346: {name: "White Cane Safety Day", description: "White Cane Safety Day is a United States observanc…chievements and the importance of the white cane.", country: {…}, date: {…}, type: Array(1), …}
+347: {name: "Boss's Day", description: "Boss’s Day is observed in many workplaces in the U…ctober 16, or the nearest working day, each year.", country: {…}, date: {…}, type: Array(1), …}
+348: {name: "World Food Day", description: "World Food Day is celebrated on October 16 each year.", country: {…}, date: {…}, type: Array(1), …}
+349: {name: "Sweetest Day", description: "Sweetest Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+350: {name: "International Day for the Eradication of Poverty", description: "The United Nations’ (UN) International Day for the…eness of the need to eradicate poverty worldwide.", country: {…}, date: {…}, type: Array(1), …}
+351: {name: "Alaska Day", description: "Alaska Day is an official holiday in Alaska, the U… Russia to the United States on October 18, 1867.", country: {…}, date: {…}, type: Array(1), …}
+352: {name: "The Prophet's Birthday", description: "Eid Milad ul-Nabi (Mawlid or Milad-un-Nabi) commemorates the Prophet Muhammed's birthday.", country: {…}, date: {…}, type: Array(1), …}
+353: {name: "United Nations Day", description: "United Nations Day marks the anniversary of the Un… United Nations Day annually falls on October 24.", country: {…}, date: {…}, type: Array(1), …}
+354: {name: "World Development Information Day", description: "The United Nations' (UN) World Development Information Day falls on October 24 each year.", country: {…}, date: {…}, type: Array(1), …}
+355: {name: "World Day for Audiovisual Heritage", description: "The World Day for Audiovisual Heritage is observed on October 27 every year.", country: {…}, date: {…}, type: Array(1), …}
+356: {name: "World Stroke Day", description: "World Stroke Day is annually held on October 29 to…ise awareness about stroke and ways to combat it.", country: {…}, date: {…}, type: Array(1), …}
+357: {name: "Nevada Day", description: "Nevada Day is an annual state holiday celebrated i… of Nevada, which took place on October 31, 1864.", country: {…}, date: {…}, type: Array(1), …}
+358: {name: "World Cities Day", description: "World Cities Day is a UN observance that aims to r…a foundation for social and economic development.", country: {…}, date: {…}, type: Array(1), …}
+359: {name: "Halloween", description: "Halloween is celebrated by hosting costume parties…unted houses or carving lanterns out of pumpkins.", country: {…}, date: {…}, type: Array(1), …}
+360: {name: "All Saints' Day", description: "Many Catholics honor all the saints on All Saints'… known as All Hallows' Day, in the United States.", country: {…}, date: {…}, type: Array(1), …}
+361: {name: "World Vegan Day", description: " World Vegan Day is an annual observation that bri… the health advantages of following a vegan diet.", country: {…}, date: {…}, type: Array(1), …}
+362: {name: "All Souls' Day", description: "Prayers for the dead are made on All Souls’ Day in…e Day of the Dead is also celebrated on this day.", country: {…}, date: {…}, type: Array(1), …}
+363: {name: "International Day to End Impunity for Crimes against Journalists", description: "The International Day to End Impunity for Crimes a…ses awareness about violence against journalists.", country: {…}, date: {…}, type: Array(1), …}
+364: {name: "Election Day", description: "Election Day in the United States of America is th…ular ballots are held to select public officials.", country: {…}, date: {…}, type: Array(1), …}
+365: {name: "Election Day", description: "Election Day in the United States of America is th…ular ballots are held to select public officials.", country: {…}, date: {…}, type: Array(1), …}
+366: {name: "Diwali/Deepavali", description: "Diwali, also known as the Festival of Lights, marks the beginning of the Hindu New Year.", country: {…}, date: {…}, type: Array(2), …}
+367: {name: "International Day for Preventing the Exploitation of the Environment in War and Armed Conflict", description: "The United Nations’ (UN) International Day for Pre…d Armed Conflict is held on November 6 each year.", country: {…}, date: {…}, type: Array(1), …}
+368: {name: "Daylight Saving Time ends", description: "Daylight Saving Time ends in the USA", country: {…}, date: {…}, type: Array(1), …}
+369: {name: "New York City Marathon", description: "The New York City Marathon is one of the world's l…marathons and takes place every year in November.", country: {…}, date: {…}, type: Array(1), …}
+370: {name: "World Science Day for Peace and Development", description: "The World Science Day for Peace and Development (WSDPD) is celebrated on November 10 each year.", country: {…}, date: {…}, type: Array(1), …}
+371: {name: "Marine Corps Birthday", description: "Marine Corps Birthday celebrates the establishment… United States Marine Corps on November 10, 1775.", country: {…}, date: {…}, type: Array(1), …}
+372: {name: "Veterans Day", description: "Veterans Day in the USA is a holiday to honor all …ve served in the United States Military Services.", country: {…}, date: {…}, type: Array(1), …}
+373: {name: "World Pneumonia Day", description: "World Pneumonia Day supports all efforts made to p…e single largest cause of child deaths worldwide.", country: {…}, date: {…}, type: Array(1), …}
+374: {name: "World Diabetes Day", description: "World Diabetes Day is held annually to raise aware…on need. It is observed on November 14 each year.", country: {…}, date: {…}, type: Array(1), …}
+375: {name: "International Day for Tolerance", description: "The United Nations’ (UN) International Day for Tol…understand the importance of tolerance worldwide.", country: {…}, date: {…}, type: Array(1), …}
+376: {name: "World Prematurity Day", description: " World Prematurity Day is an annual observance tha…h and emotional issues surrounding preterm birth.", country: {…}, date: {…}, type: Array(1), …}
+377: {name: "World Philosophy Day", description: "World Philosophy Day is celebrated on the third Thursday of November each year.", country: {…}, date: {…}, type: Array(1), …}
+378: {name: "World Toilet Day", description: "World Toilet Day aims to promote public awareness …oilets to improve people’s health and save lives.", country: {…}, date: {…}, type: Array(1), …}
+379: {name: "International Men's Day", description: "International Men’s Day celebrates men's achievements worldwide and throughout history.", country: {…}, date: {…}, type: Array(1), …}
+380: {name: "Universal Children's Day", description: "The United Nations' (UN) Universal Children's Day …er the world. It is held on November 20 each year", country: {…}, date: {…}, type: Array(1), …}
+381: {name: "Africa Industrialization Day", description: "Africa Industrialization Day aims to stimulate the…'s commitment to the industrialization of Africa.", country: {…}, date: {…}, type: Array(1), …}
+382: {name: "World Day of Remembrance for Road Traffic Victims", description: "The World Day of Remembrance for Road Traffic Vict… advocacy day for road traffic injury prevention.", country: {…}, date: {…}, type: Array(1), …}
+383: {name: "World Television Day", description: "The United Nations’ (UN) World Television Day is globally celebrated on November 21 each year.", country: {…}, date: {…}, type: Array(1), …}
+384: {name: "International Day for the Elimination of Violence against Women", description: "The United Nations' (UN) International Day for the…society. It is observed each year on November 25.", country: {…}, date: {…}, type: Array(1), …}
+385: {name: "Thanksgiving Day", description: "Thanksgiving Day in the United States is tradition… food collected at the end of the harvest season.", country: {…}, date: {…}, type: Array(1), …}
+386: {name: "State Holiday", description: "Robert E. Lee’s birthday is an annual official sta…n Luther King’s birthday in some parts of the US.", country: {…}, date: {…}, type: Array(1), …}
+387: {name: "Presidents' Day", description: "Washington's Birthday, or Presidents' Day, honors …resident of the United States, George Washington.", country: {…}, date: {…}, type: Array(1), …}
+388: {name: "Lincoln's Birthday/Lincoln's Day", description: "Lincoln’s Birthday is observed in the United State…president and was known as the Great Emancipator.", country: {…}, date: {…}, type: Array(1), …}
+389: {name: "Day After Thanksgiving", description: "The Day After Thanksgiving, also known as Black Friday, is a state holiday more than 20 states.", country: {…}, date: {…}, type: Array(1), …}
+390: {name: "Day After Thanksgiving", description: "The Day After Thanksgiving, also known as Black Friday, is a state holiday more than 20 states.", country: {…}, date: {…}, type: Array(1), …}
+391: {name: "Family Day", description: "The Day After Thanksgiving, also known as Black Friday, is a state holiday more than 20 states.", country: {…}, date: {…}, type: Array(1), …}
+392: {name: "Acadian Day", description: "The Day After Thanksgiving, also known as Black Friday, is a state holiday more than 20 states.", country: {…}, date: {…}, type: Array(1), …}
+393: {name: "Black Friday", description: "Black Friday is the day after Thanksgiving Day in …usy shopping day and is a holiday in some states.", country: {…}, date: {…}, type: Array(1), …}
+394: {name: "American Indian Heritage Day", description: "American Indian Heritage Day is often observed on …iday after Thanksgiving Day in the United States.", country: {…}, date: {…}, type: Array(1), …}
+395: {name: "Native American Heritage Day", description: "Native American Heritage Day is a state holiday in the USA", country: {…}, date: {…}, type: Array(1), …}
+396: {name: "Native American Heritage Day", description: "Native American Heritage Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+397: {name: "First Sunday of Advent", description: "Many Christians in the United States observe the f…ent, which marks the start of the Christian year.", country: {…}, date: {…}, type: Array(1), …}
+398: {name: "Chanukah/Hanukkah (first day)", description: "The first day of Hanukkah is the start of the Hanu…o the second day of Tevet in the Hebrew calendar.", country: {…}, date: {…}, type: Array(1), …}
+399: {name: "International Day of Solidarity with the Palestinian People", description: "The United Nations’ (UN) International Day of Soli…inian People is annually observed on November 29.", country: {…}, date: {…}, type: Array(1), …}
+[400 … 436]
+400: {name: "Cyber Monday", description: "Most online retailers in the US offer discounted p…s on their products and services on Cyber Monday.", country: {…}, date: {…}, type: Array(1), …}
+401: {name: "World AIDS Day", description: "The United Nations' (UN) World AIDS Day is annually observed on December 1.", country: {…}, date: {…}, type: Array(1), …}
+402: {name: "Rosa Parks Day", description: "The life of American civil rights leader Rosa Park…United States on either February 4 or December 1.", country: {…}, date: {…}, type: Array(1), …}
+403: {name: "Rosa Parks Day", description: "The life of American civil rights leader Rosa Park…United States on either February 4 or December 1.", country: {…}, date: {…}, type: Array(1), …}
+404: {name: "Rosa Parks Day", description: "The life of American civil rights leader Rosa Park…United States on either February 4 or December 1.", country: {…}, date: {…}, type: Array(1), …}
+405: {name: "International Day for the Abolition of Slavery", description: "The United Nations’ (UN) International Day for the…on of Slavery is annually observed on December 2.", country: {…}, date: {…}, type: Array(1), …}
+406: {name: "International Day of Persons with Disabilities", description: "The United Nations' (UN) International Day of Pers… the rights of people who live with disabilities.", country: {…}, date: {…}, type: Array(1), …}
+407: {name: "International Volunteer Day for Economic and Social Development", description: "The United Nations’ (UN) International Volunteer D…r Day (IVD), is observed on December 5 each year.", country: {…}, date: {…}, type: Array(1), …}
+408: {name: "World Soil Day", description: "World Soil Day raises awareness of why soil is needed for sustainable living.", country: {…}, date: {…}, type: Array(1), …}
+409: {name: "Last Day of Chanukah", description: "The last day of Hanukkah marks the end of a festive Jewish occasion, known as Hanukkah or Chanukah.", country: {…}, date: {…}, type: Array(1), …}
+410: {name: "St Nicholas Day", description: "Some churches in the United States recognize St Nicholas' Day as a feast day.", country: {…}, date: {…}, type: Array(1), …}
+411: {name: "International Civil Aviation Day", description: "International Civil Aviation Day is observed globa…International Civil Aviation Organization (ICAO).", country: {…}, date: {…}, type: Array(1), …}
+412: {name: "Pearl Harbor Remembrance Day", description: "National Pearl Harbor Remembrance Day remembers th…en Pearl Harbor, in Hawaii, was attacked in 1941.", country: {…}, date: {…}, type: Array(1), …}
+413: {name: "Feast of the Immaculate Conception", description: "The Feast of the Immaculate Conception is a Christian observance on December 8 each year.", country: {…}, date: {…}, type: Array(1), …}
+414: {name: "International Anti-Corruption Day", description: "The United Nations’ (UN) International Anti-Corrup…lic awareness of corruption and ways to fight it.", country: {…}, date: {…}, type: Array(1), …}
+415: {name: "World Genocide Commemoration Day", description: "World Genocide Commemoration Day is a UN holiday dedicated to the victims of genocide.", country: {…}, date: {…}, type: Array(1), …}
+416: {name: "Human Rights Day", description: "Human Rights Day marks the anniversary of when the…ersal Declaration of Human Rights was proclaimed.", country: {…}, date: {…}, type: Array(1), …}
+417: {name: "International Mountain Day", description: "The United Nations' (UN) International Mountain Da…reation. It is observed on December 11 each year.", country: {…}, date: {…}, type: Array(1), …}
+418: {name: "Feast of Our Lady of Guadalupe", description: "The Feast of Our Lady Guadalupe, in honor of Jesus…y, is a Catholic observance in the United States.", country: {…}, date: {…}, type: Array(1), …}
+419: {name: "National Guard Birthday", description: "National Guard Birthday is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+420: {name: "Bill of Rights Day", description: "Bill of Rights Day is a observance in the USA", country: {…}, date: {…}, type: Array(1), …}
+421: {name: "Pan American Aviation Day", description: "December 17 marks Pan American Aviation Day, which is annually observed in the United States.", country: {…}, date: {…}, type: Array(1), …}
+422: {name: "Wright Brothers Day", description: "The Wright Brothers Day is annually celebrated in …y Orville and Wilbur Wright on that date in 1903.", country: {…}, date: {…}, type: Array(1), …}
+423: {name: "International Migrants Day", description: "The United Nations (UN) International Migrants Day is celebrated on December 18 each year.", country: {…}, date: {…}, type: Array(1), …}
+424: {name: "Arabic Language Day", description: "World Arabic Language Day is a United Nations (UN)…the organization’s 6 official languages – Arabic.", country: {…}, date: {…}, type: Array(1), …}
+425: {name: "International Human Solidarity Day", description: "The United Nations' (UN) International Human Solid…the importance of solidarity in fighting poverty.", country: {…}, date: {…}, type: Array(1), …}
+426: {name: "December Solstice", description: "December Solstice in the USA (New York)", country: {…}, date: {…}, type: Array(1), …}
+427: {name: "Day off for Christmas Day", description: "Christmas Day celebrates Jesus Christ's birth.", country: {…}, date: {…}, type: Array(2), …}
+428: {name: "Christmas Eve", description: "Christmas Eve in the United States is on December 24 each year.", country: {…}, date: {…}, type: Array(2), …}
+429: {name: "Christmas Eve", description: "Christmas Eve in the United States is on December 24 each year.", country: {…}, date: {…}, type: Array(1), …}
+430: {name: "Christmas Day", description: "Christmas Day celebrates Jesus Christ's birth.", country: {…}, date: {…}, type: Array(2), …}
+431: {name: "Kwanzaa (first day)", description: "Kwanzaa is a week-long holiday honoring the cultur…dants worldwide, especially in the United States.", country: {…}, date: {…}, type: Array(1), …}
+432: {name: "Day After Christmas Day", description: "Some states in the United States observe the Day after Christmas Day as a public holiday.", country: {…}, date: {…}, type: Array(1), …}
+433: {name: "Day After Christmas Day", description: "Some states in the United States observe the Day after Christmas Day as a public holiday.", country: {…}, date: {…}, type: Array(1), …}
+434: {name: "Day off for New Year's Day", description: "New Year's Day is the first day of the Gregorian c…is widely used in many countries such as the USA.", country: {…}, date: {…}, type: Array(1), …}
+435: {name: "New Year's Eve", description: "New Year's Eve is the last day of the year in the …e held in in the United States on New Year's Eve.", country: {…}, date: {…}, type: Array(1), …}
+436: {name: "New Year's Eve", description: "New Year's Eve is the last day of the year in the …e hel
