@@ -37,161 +37,6 @@ $('#primary-menu').on(
   dropdown.fadeOut('slow');
 });
 
-//Objects for keywords and genres
-
-var genreIDSet = {
-"Action": "28",
-"Adventure":"12",
-"Animation":"16",
-"Comedy":"35",
-"Crime":"80",
-"Documentary":"99",
-"Drama":"18",
-"Family":"10751",
-"Fantasy":"14",
-"History":"36",
-"Horror":"27",
-"Music":"10402",
-"Mystery":"9648",
-"Romance":"10749",
-"Science Fiction":"878",
-"TV Movie":"10770",
-"Thriller":"53",
-"War":"10752",
-"Western":"37",
-"Any":"28 | 12 | 16 | 35 | 80 | 99 | 18 | 10751 | 14 | 36 | 27 | 10402 | 9648 | 10749 | 878 | 10770 | 53 | 10752 | 37"
-}
-
-var genreIDGet = {
-"28": "Action",
-"12": "Adventure",
-"16": "Animation",
-"35": "Comedy",
-"80": "Crime",
-"99": "Documentary",
-"18": "Drama",
-"10751": "Family",
-"14": "Fantasy",
-"36": "History",
-"27": "Horror",
-"10402": "Music",
-"9648": "Mystery",
-"10749": "Romance",
-"878": "Science Fiction",
-"10770": "TV Movie",
-"53": "Thriller",
-"10752": "War",
-"37": "Western"
-}
-
-
-var holidayID = {
-"New Year's Day": "5632",
-//late january
-"Martin Luther King Jr. Day": "5835",
-//february
-"First Day of Black History Month": "190675",
-//february 2
-"Groundhog Day": "220046",
-"Valentine's Day": "160404",
-//march 17
-"St. Patrick's Day": "209352",
-//march 24-april 4
-"Passover (first day)": "186939",
-//april 4
-"Easter Sunday": "9921",
-//may 9
-"Mother's Day": "173983",
-//june 20
-"Father's Day": "195439",
-//july 4
-"Independence Day": "1627",
-// August
-"School":"10873",
-//september 6-8
-"Rosh Hashana": "209053",
-//october 11
-"Indigenous People's Day": "215162",
-"Halloween": "3335",
-//november 26
-"Thanksgiving Day": "4543",
-//december 10-18
-"Chanukah/Hanukkah (first day)": "209321",
-"Christmas Day": "207317",
-"New Year's Eve": "613",
-"Friday the 13th": "163652"
-}
-
-var convertHolidayName = {
-"New Year's Day": "New Year's Day",
-//late january
-"Martin Luther King Jr. Day": "Martin Luther King Jr. Day",
-//february
-"First Day of Black History Month": "Black History Month",
-//february 2
-"Groundhog Day": "Groundhog Day",
-"Valentine's Day": "Valentine's Day",
-//march 17
-"St. Patrick's Day": "St. Patrick's Day",
-//march 24-april 4
-"Passover (first day)": "Passover",
-//april 4
-"Easter Sunday": "Easter",
-//may 9
-"Mother's Day": "Mother's Day",
-//june 20
-"Father's Day": "Father's Day",
-"International Youth Day": "Back to School",
-"Independence Day": "4th of July",
-//september 6-8
-"Rosh Hashana": "Rosh Hashana",
-//october 11
-"Indigenous People's Day": "Indigenous People's Day",
-"Halloween": "Halloween",
-//november 26
-"Thanksgiving Day": "Thanksgiving",
-//december 10-18
-"Chanukah/Hanukkah (first day)": "Hanukkah",
-"Christmas Day": "Christmas",
-"New Year's Eve": "New Year's Eve",
-"Friday the 13th": "Friday the 13th"
-}
-
-var convertBackHolidayName = {
-"New Year's Day": "New Year's Day",
-//late january
-"Martin Luther King Jr. Day": "Martin Luther King Jr. Day",
-//february
-"Black History Month": "First Day of Black History Month",
-//february 2
-"Groundhog Day": "Groundhog Day",
-"Valentine's Day": "Valentine's Day",
-//march 17
-"St. Patrick's Day": "St. Patrick's Day",
-//march 24-april 4
-"Passover": "Passover (first day)",
-//april 4
-"Easter": "Easter Sunday",
-//may 9
-"Mother's Day": "Mother's Day",
-//june 20
-"Father's Day": "Father's Day",
-"4th of July": "Independence Day",
-"Back to School": "School",
-//september 6-8
-"Rosh Hashana": "Rosh Hashana",
-//october 11
-"Indigenous People's Day": "Indigenous People's Day",
-"Halloween": "Halloween",
-//november 26
-"Thanksgiving": "Thanksgiving Day",
-//december 10-18
-"Hanukkah": "Chanukah/Hanukkah (first day)",
-"Christmas": "Christmas Day",
-"New Year's Eve": "New Year's Eve",
-"Friday the 13th": "Friday the 13th"
-}
-
   //Calendarific
 $("#date-search-btn").on("click", function(event){
   $("#holidayDropdown").empty()
@@ -220,7 +65,7 @@ $("#date-search-btn").on("click", function(event){
   if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
   if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
   if (month == 5 && year == 2021) {var index = 169; var index2 = 87; var index3 = 87}
-  if (month == 6 && year == 2021) {var index = 225; var index2 = 238; var index3 = 87}
+  if (month == 6 && year == 2021) {var index = 225; var index2 = 238; var index3 = 222}
   if (month == 7 && year == 2021) {var index = 238; var index2 = 87; var index3 = 87}
   if (month == 8 && year == 2021) {var index = 262; var index2 = 261; var index3 = 87}
   if (month == 9 && year == 2021) {var index = 278; var index2 = 87; var index3 = 87}
@@ -243,11 +88,11 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   var holidays2 = response.response.holidays[index2].name
   var holidays3 = response.response.holidays[index3].name
   // console.log("holidays response:", response.response.holidays[index])
-  //console.log("holidays:",response)
-  var convertHolName = convertHolidayName[holidays]
-  var convertHolName2 = convertHolidayName[holidays2]
-  var convertHolName3 = convertHolidayName[holidays3]
-  // console.log(convertHolName)
+  // console.log("holidays:",response)
+  var renameHolName = renameHolidayName[holidays]
+  var renameHolName2 = renameHolidayName[holidays2]
+  var renameHolName3 = renameHolidayName[holidays3]
+  // console.log(renameHolName)
   
   holidayDiv = $("<option>")
   $(holidayDiv).addClass("clear")
@@ -255,9 +100,9 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   $(holidayDiv2).addClass("clear")
   holidayDiv3 = $("<option>")
   $(holidayDiv3).addClass("clear")
-  holidayDiv.text(convertHolName)
-  holidayDiv2.text(convertHolName2)
-  holidayDiv3.text(convertHolName3)
+  holidayDiv.text(renameHolName)
+  holidayDiv2.text(renameHolName2)
+  holidayDiv3.text(renameHolName3)
   $("#holidayDropdown").append(holidayDiv)
   if (holidays2 !== "Maryland Day") {
   $("#holidayDropdown").append(holidayDiv2)
@@ -288,21 +133,18 @@ function getMovie(holidays) {
   console.log("holidays:", holidays)
   // var holiday = $(this).attr("value")
   console.log("holidayID[holidays]:", holidayID[holidays])
-  var convertBackHolName = convertBackHolidayName[holidays]
-  console.log("convert back:", convertBackHolName)
   var genre1 = $("#genreDropdown1").val()
   var genre2 = $("#genreDropdown2").val()
   console.log("genre1:", genre1)
   
   var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
-  var queryURL = "https://api.themoviedb.org/3/discover/movie?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc&include_adult=false&with_keywords=" + holidayID[convertBackHolName] + "&with_genres=" + genreIDSet[genre1] + "| " + genreIDSet[genre2]
+  var queryURL = "https://api.themoviedb.org/3/discover/movie?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc&include_adult=false&with_keywords=" + holidayID[holidays] + "&with_genres=" + genreIDSet[genre1] + "| " + genreIDSet[genre2]
 
-  // var queryURL = "https://api.themoviedb.org/3/keyword/" + holidayID[convertBackHolName] + "/movies?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc"
   $.ajax({
       url: queryURL,
       method: "GET"
   }).then(function (response) {
-      console.log("response:", response)
+      console.log("movie list:", response)
 
       
         //Shows Elements
@@ -428,6 +270,128 @@ function getMovie(holidays) {
 $("#holidayDropdown").on("click", function(){
   $("#genreDropdown1").val("Any")
 })
+
+//Objects for keywords and genres
+
+var genreIDSet = {
+  "Action": "28",
+  "Adventure":"12",
+  "Animation":"16",
+  "Comedy":"35",
+  "Crime":"80",
+  "Documentary":"99",
+  "Drama":"18",
+  "Family":"10751",
+  "Fantasy":"14",
+  "History":"36",
+  "Horror":"27",
+  "Music":"10402",
+  "Mystery":"9648",
+  "Romance":"10749",
+  "Science Fiction":"878",
+  "TV Movie":"10770",
+  "Thriller":"53",
+  "War":"10752",
+  "Western":"37",
+  "Any":"28 | 12 | 16 | 35 | 80 | 99 | 18 | 10751 | 14 | 36 | 27 | 10402 | 9648 | 10749 | 878 | 10770 | 53 | 10752 | 37"
+  }
+  
+  var genreIDGet = {
+  "28": "Action",
+  "12": "Adventure",
+  "16": "Animation",
+  "35": "Comedy",
+  "80": "Crime",
+  "99": "Documentary",
+  "18": "Drama",
+  "10751": "Family",
+  "14": "Fantasy",
+  "36": "History",
+  "27": "Horror",
+  "10402": "Music",
+  "9648": "Mystery",
+  "10749": "Romance",
+  "878": "Science Fiction",
+  "10770": "TV Movie",
+  "53": "Thriller",
+  "10752": "War",
+  "37": "Western"
+  }
+  
+  var renameHolidayName = {
+    "New Year's Day": "New Year's Day",
+    //late january
+    "Martin Luther King Jr. Day": "Martin Luther King Jr. Day",
+    //february
+    "First Day of Black History Month": "Black History Month",
+    //february 2
+    "Groundhog Day": "Groundhog Day",
+    "Valentine's Day": "Valentine's Day",
+    //march 17
+    "St. Patrick's Day": "St. Patrick's Day",
+    //march 24-april 4
+    "Passover (first day)": "Passover",
+    //april 4
+    "Easter Sunday": "Easter",
+    //may 9
+    "Mother's Day": "Mother's Day",
+    "Juneteenth": "Juneteenth",
+    //june 20
+    "Father's Day": "Father's Day",
+    "Independence Day": "4th of July",
+    "International Youth Day": "Back to School",
+    //september 6-8
+    "Rosh Hashana": "Rosh Hashana",
+    //october 11
+    "Indigenous People's Day": "Indigenous People's Day",
+    "Halloween": "Halloween",
+    //november 26
+    "Thanksgiving Day": "Thanksgiving",
+    //december 10-18
+    "Chanukah/Hanukkah (first day)": "Hanukkah",
+    "Christmas Day": "Christmas",
+    "New Year's Eve": "New Year's Eve",
+    "Friday the 13th": "Friday the 13th"
+    }
+    
+  var holidayID = {
+  "New Year's Day": "5632",
+  //late january
+  "Martin Luther King Jr. Day": "5835",
+  //february
+  "Black History Month": "190675 | 251436",
+  //february 2
+  "Groundhog Day": "220046 | 901",
+  "Valentine's Day": "160404",
+  //march 17
+  "St. Patrick's Day": "209352 | 232483 | 10310 | 14985",
+  //march 24-april 4
+  "Passover": "194195",
+  //april 4
+  "Easter": "9921 | 256895 | 3571",
+  //may 9
+  "Mother's Day": "456 | 173983",
+  //june 19
+  "Juneteenth": "4098 | 270891 | 4098",
+  //june 20
+  "Father's Day": "5905 | 195439",
+  //july 4
+  "4th of July": "1627 | 235503 | 190024",
+  // August
+  "Back to School":"10873",
+  //september 6-8
+  "Rosh Hashana": "11704 | 209053 | 257142",
+  //october 11
+  "Indigenous People's Day": "215162 | 10322",
+  "Halloween": "3335",
+  //november 26
+  "Thanksgiving": "4543",
+  //december 10-18
+  "Hanukkah": "209321 | 7328",
+  "Christmas": "207317 | 272288",
+  "New Year's Eve": "613",
+  "Friday the 13th": "163652"
+  }
 
 })
 
