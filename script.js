@@ -183,6 +183,7 @@ var convertBackHolidayName = {
 "Christmas": "Christmas Day",
 "New Year's Eve": "New Year's Eve",
 "Friday the 13th": "Friday the 13th"
+}
 
   //Calendarific
 $("#date-search-btn").on("click", function(event){
@@ -269,8 +270,7 @@ $("#search-btn").on("click", function(event){
   })
 }
 //End Holiday Dropdown Input
-}) 
-}
+})
 // End Calendarific
 
 
