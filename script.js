@@ -13,6 +13,9 @@ The movies then print to the screen, with the current most popular movie in the 
 
 $(document).ready(function() {
 
+  //Prints "PLOT" to page
+  $("#plot").text("Plot:")
+
   //Date picker
 $( function() {
   $( "#datepicker" ).datepicker({ dateFormat: "mm/dd/yy" });
