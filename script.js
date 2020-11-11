@@ -219,7 +219,7 @@ $("#date-search-btn").on("click", function(event){
   if (month == 9 && year == 2021) {var index = 278; var index2 = 87; var index3 = 87}
   if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 338}
   if (month == 11 && year == 2020) {var index = 466; var index2 = 438; var index3 = 510}
-  if (month == 12 && year == 2020) {var index = 510; var index2 = 398; var index3 = 435}
+  if (month == 12 && year == 2020) {var index = 510; var index2 = 496; var index3 = 514}
 
   //start ajax call to calendarific
 var apiKey2 = "&api_key=b9ec0bca17bd0a622c5f4df29dc9cfa0894bc535"
@@ -418,7 +418,7 @@ function getMovie(holidays) {
 }
 //Empties holiday dropdown
 $("#holidayDropdown").on("click", function(){
-  $("#genreDropdown1").val("")
+  $("#genreDropdown1").val("Any")
 })
 
 })
