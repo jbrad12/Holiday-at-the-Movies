@@ -220,7 +220,7 @@ $("#date-search-btn").on("click", function(event){
   if (month == 7 && year == 2021) {var index = 238; var index2 = 87; var index3 = 87}
   if (month == 8 && year == 2021) {var index = 262; var index2 = 87; var index3 = 87}
   if (month == 9 && year == 2021) {var index = 278; var index2 = 87; var index3 = 87}
-  if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 338}
+  if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 414}
   if (month == 11 && year == 2020) {var index = 466; var index2 = 438; var index3 = 510}
   if (month == 12 && year == 2020) {var index = 510; var index2 = 496; var index3 = 514}
 
@@ -254,10 +254,10 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   holidayDiv2.text(convertHolName2)
   holidayDiv3.text(convertHolName3)
   $("#holidayDropdown").append(holidayDiv)
-  if (holidayDiv2 !== "Maryland Day") {
+  if (holidays2 !== "Maryland Day") {
   $("#holidayDropdown").append(holidayDiv2)
   }
-  if (holidayDiv3 !== "Maryland Day") {
+  if (holidays3 !== "Maryland Day") {
   $("#holidayDropdown").append(holidayDiv3)
   }
   console.log(response)
