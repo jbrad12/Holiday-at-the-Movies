@@ -30,6 +30,8 @@ Hide/show
 We underestimated the amount of holidays there are in the US, but were able to narrow it down. Getting the two API's to connect was challenging. One uses words, but the other uses ID's, so converting ID's to genres was also a challenge and a little time consuming.
 
 # Directions for future development
+Add an option for movie to specify its rating.
+Links to a trailer for each movie.
 
 
 # Screen shot of working application
