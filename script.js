@@ -346,6 +346,11 @@ function getMovie(holidays) {
   // })
 }
 
+$("#holidayDropdown").on("click", function(){
+  $("#genreDropdown1").val("")
+})
+
+
 //Calendarific
 $("#date-search-btn").on("click", function(event){
   $("#holidayDropdown").empty()
@@ -363,6 +368,8 @@ $("#date-search-btn").on("click", function(event){
   var day = date1.substr(3, 2);
   var year = date1.substr(6, 10);
 
+  //Exclusion indexs 2020: 103 2021: 87
+
   console.log("month:", month)
   console.log("year:", year)
   if (month == 1 && year == 2021) {var index = 0; var index2 = 435; var index3 = 8}
@@ -370,12 +377,12 @@ $("#date-search-btn").on("click", function(event){
   if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
   if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
   if (month == 5 && year == 2021) {var index = 169}
-  if (month == 6 && year == 2021)
-  if (month == 7 && year == 2021)
-  if (month == 8 && year == 2021)
+  if (month == 6 && year == 2021){}
+  if (month == 7 && year == 2021){}
+  if (month == 8 && year == 2021){}
   if (month == 8 && day > 8 && day < 18 && year == 2021) {var index = 262}
-  if (month == 9 && year == 2021) 
-  if (month == 10 && year == 2020) {var index = 438; var index2 = 466}
+  if (month == 9 && year == 2021) {}
+  if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 103}
   if (month == 11) {var index = 466; var index2 = 438; var index3 = 510}
   if (month == 12) {var index = 510; var index2 = 466; var index3 = 0}
 
@@ -395,7 +402,7 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   var holidays2 = response.response.holidays[index2].name
   var holidays3 = response.response.holidays[index3].name
   // console.log("holidays response:", response.response.holidays[index])
-  // console.log("holidays:",response)
+  //console.log("holidays:",response)
   var convertHolName = convertHolidayName[holidays]
   var convertHolName2 = convertHolidayName[holidays2]
   var convertHolName3 = convertHolidayName[holidays3]
@@ -410,8 +417,11 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   holidayDiv.text(convertHolName)
   holidayDiv2.text(convertHolName2)
   holidayDiv3.text(convertHolName3)
-  $("#holidayDropdown").append(holidayDiv, holidayDiv2, holidayDiv3)
-
+  $("#holidayDropdown").append(holidayDiv)
+  $("#holidayDropdown").append(holidayDiv2)
+  if (holidayDiv3 !== "Maryland Day") {
+  $("#holidayDropdown").append(holidayDiv3)
+  }
   console.log(response)
 
   })
