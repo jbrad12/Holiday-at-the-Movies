@@ -426,4 +426,3 @@ $("#holidayDropdown").on("click", function(){
 
 })
 
- 
