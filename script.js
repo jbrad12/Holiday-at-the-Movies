@@ -105,7 +105,7 @@ var holidayID = {
 //june 20
 "Father's Day": "195439",
 //july 4
-"Independence Day": "235503",
+"Independence Day": "1627",
 // August
 "School":"10873",
 //september 6-8
