@@ -97,7 +97,7 @@ var holidayID = {
 //march 17
 "St. Patrick's Day": "209352",
 //march 24-april 4
-"Passover (first day)": "194195",
+"Passover (first day)": "186939",
 //april 4
 "Easter Sunday": "9921",
 //may 9
@@ -106,6 +106,8 @@ var holidayID = {
 "Father's Day": "195439",
 //july 4
 "Independence Day": "235503",
+// August
+"School":"10873",
 //september 6-8
 "Rosh Hashana": "209053",
 //october 11
@@ -139,6 +141,7 @@ var convertHolidayName = {
 "Mother's Day": "Mother's Day",
 //june 20
 "Father's Day": "Father's Day",
+"International Youth Day": "Back to School",
 "Independence Day": "4th of July",
 //september 6-8
 "Rosh Hashana": "Rosh Hashana",
@@ -174,6 +177,7 @@ var convertBackHolidayName = {
 //june 20
 "Father's Day": "Father's Day",
 "4th of July": "Independence Day",
+"Back to School": "School",
 //september 6-8
 "Rosh Hashana": "Rosh Hashana",
 //october 11
@@ -218,11 +222,12 @@ $("#date-search-btn").on("click", function(event){
   if (month == 5 && year == 2021) {var index = 169; var index2 = 87; var index3 = 87}
   if (month == 6 && year == 2021) {var index = 225; var index2 = 238; var index3 = 87}
   if (month == 7 && year == 2021) {var index = 238; var index2 = 87; var index3 = 87}
-  if (month == 8 && year == 2021) {var index = 262; var index2 = 87; var index3 = 87}
+  if (month == 8 && year == 2021) {var index = 262; var index2 = 261; var index3 = 87}
   if (month == 9 && year == 2021) {var index = 278; var index2 = 87; var index3 = 87}
   if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 414}
   if (month == 11 && year == 2020) {var index = 466; var index2 = 438; var index3 = 510}
   if (month == 12 && year == 2020) {var index = 510; var index2 = 496; var index3 = 514}
+  if (month == 10 && year == 2021) {var index = 359; var index2 = 385; var index3 = 338}
 
   //start ajax call to calendarific
 var apiKey2 = "&api_key=b9ec0bca17bd0a622c5f4df29dc9cfa0894bc535"
