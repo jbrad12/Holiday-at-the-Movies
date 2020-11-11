@@ -313,7 +313,7 @@ function getMovie(holidays) {
             $("#rating0").text("Rated: " + rating)
             console.log(response)
           })
-
+          if (typeof response.results[1] !== "undefined") {
           var movieTitle1 = response.results[1].title
           var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle1 + "&apikey=b09a14fe";
   
@@ -326,7 +326,9 @@ function getMovie(holidays) {
             $("#rating1").text("Rated: " + rating)
             console.log("rating1:", response)
           })
+          }
 
+          if (typeof response.results[2] !== "undefined") {
           var movieTitle2 = response.results[2].title
           var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle2 + "&apikey=b09a14fe";
   
@@ -339,6 +341,9 @@ function getMovie(holidays) {
             $("#rating2").text("Rated: " + rating)
           })
 
+          }
+          
+          if (typeof response.results[3] !== "undefined") {
           var movieTitle3 = response.results[3].title
           var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle3 + "&apikey=b09a14fe";
   
@@ -350,7 +355,9 @@ function getMovie(holidays) {
             var rating = response.Rated
             $("#rating3").text("Rated: " + rating)
           })
+          }
 
+          if (typeof response.results[4] !== "undefined") {
           var movieTitle4 = response.results[4].title
           var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle4 + "&apikey=b09a14fe";
   
@@ -364,6 +371,9 @@ function getMovie(holidays) {
             console.log("rating4:",response)
           })
 
+          }
+
+          if (typeof response.results[5] !== "undefined") {
           var movieTitle5 = response.results[5].title
           var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle5 + "&apikey=b09a14fe";
   
@@ -376,6 +386,7 @@ function getMovie(holidays) {
             $("#rating5").text("Rated: " + rating)
             console.log("response5:",response)
           })
+        }
         //Ratings End
 
 
