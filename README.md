@@ -1,5 +1,5 @@
 # project1
-## project1  APP Name
+## Project1  APP Name
 Holiday at The Movies
 
 # Link to app
@@ -11,13 +11,13 @@ Everyone loves watching holiday movies! Wouldn't it be great if someone could re
 # Purpose of Application
 Introducing Holiday at the Movies: An application that gives you a list of movies based on the holidays that are closest to the date that is entered.
 
-# distrubution of work
+# Distrubution of work
 Elan -
 Claudia -
 Jessica -
 Jacob -
 
-# jquery/ vanilla JavaScript tools used within the application
+# jQuery/ vanilla JavaScript tools used within the application
 On click
 Drop downs
 Objects
