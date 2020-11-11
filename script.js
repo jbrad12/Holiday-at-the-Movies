@@ -212,15 +212,14 @@ $("#date-search-btn").on("click", function(event){
   if (month == 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
   if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
   if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
-  if (month == 5 && year == 2021) {var index = 169}
-  if (month == 6 && year == 2021){}
-  if (month == 7 && year == 2021){}
-  if (month == 8 && year == 2021){}
-  if (month == 8 && day > 8 && day < 18 && year == 2021) {var index = 262}
-  if (month == 9 && year == 2021) {}
-  if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 103}
-  if (month == 11) {var index = 466; var index2 = 438; var index3 = 510}
-  if (month == 12) {var index = 510; var index2 = 466; var index3 = 0}
+  if (month == 5 && year == 2021) {var index = 169; var index2 = 87; var index3 = 87}
+  if (month == 6 && year == 2021) {var index = 225; var index2 = 238; var index3 = 87}
+  if (month == 7 && year == 2021) {var index = 238; var index2 = 87; var index3 = 87}
+  if (month == 8 && year == 2021) {var index = 262; var index2 = 87; var index3 = 87}
+  if (month == 9 && year == 2021) {var index = 278; var index2 = 87; var index3 = 87}
+  if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 338}
+  if (month == 11 && year == 2020) {var index = 466; var index2 = 438; var index3 = 510}
+  if (month == 12 && year == 2020) {var index = 510; var index2 = 398; var index3 = 435}
 
   //start ajax call to calendarific
 var apiKey2 = "&api_key=b9ec0bca17bd0a622c5f4df29dc9cfa0894bc535"
@@ -252,7 +251,9 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   holidayDiv2.text(convertHolName2)
   holidayDiv3.text(convertHolName3)
   $("#holidayDropdown").append(holidayDiv)
+  if (holidayDiv2 !== "Maryland Day") {
   $("#holidayDropdown").append(holidayDiv2)
+  }
   if (holidayDiv3 !== "Maryland Day") {
   $("#holidayDropdown").append(holidayDiv3)
   }
