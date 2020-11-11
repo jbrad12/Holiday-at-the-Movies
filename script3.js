@@ -4,6 +4,21 @@
 //I only did this for October 2020 so lines 36 and 75 are the changes 
 
 
+//Empty genre on click of holiday dropdown
+
+$("#holidayDropdown").on("click", function(){
+    $("#genreDropdown1").val("")
+  })
+
+
+
+  //CSS Change Cursor
+  select {
+      cursor: pointer;
+  }
+  
+
+
 
 //Calendarific
 $("#date-search-btn").on("click", function(event){
@@ -24,6 +39,7 @@ $("#date-search-btn").on("click", function(event){
   
     console.log("month:", month)
     console.log("year:", year)
+    //exclusion index values 2020: 103   2021: 87
     if (month == 1 && year == 2021) {var index = 0; var index2 = 435; var index3 = 8}
     if (month == 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
     if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
@@ -71,7 +87,10 @@ $("#date-search-btn").on("click", function(event){
 
 
     $("#holidayDropdown").append(holidayDiv)
+    
+    if (holidays2 !== "Maryland Day") {
     $("#holidayDropdown").append(holidayDiv2)
+    }
     if (holidays3 !== "Maryland Day") {
     $("#holidayDropdown").append(holidayDiv3)
     }
