@@ -22,8 +22,11 @@
   }
   
   .hero-section .hero-section-text {
-    color: #fefefe;
-    text-shadow: 5px 5px 5px black;
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    background-color: #2199e8; 
+    border-radius: 10px;
+    padding: 10px;
     font-weight: bold;
   }
 
