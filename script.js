@@ -71,8 +71,8 @@ $("#date-search-btn").on("click", function(event){
 
   // return holidays
   if (month == 1 && year == 2021) {var index = 0; var index2 = 435; var index3 = 8}
-  if (month == 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
-  if (month == 2 && year == 2021) {var index = 26; var index2 = 26; var index3 = 26}
+  if (month == 2 && day !== 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
+  if (month == 2 && day == 2 && year == 2021) {var index = 26; var index2 = 26; var index3 = 26}
   if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
   if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
   if (month == 5 && year == 2021) {var index = 169; var index2 = 198; var index3 = 87}
