@@ -64,13 +64,13 @@ $("#date-search-btn").on("click", function(event){
   if (month == 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
   if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
   if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
-  if (month == 5 && year == 2021) {var index = 169; var index2 = 87; var index3 = 87}
+  if (month == 5 && year == 2021) {var index = 169; var index2 = 198; var index3 = 87}
   if (month == 6 && year == 2021) {var index = 225; var index2 = 238; var index3 = 222}
   if (month == 7 && year == 2021) {var index = 238; var index2 = 87; var index3 = 87}
   if (month == 8 && year == 2021) {var index = 262; var index2 = 261; var index3 = 87}
-  if (month == 9 && year == 2021) {var index = 278; var index2 = 87; var index3 = 87}
+  if (month == 9 && year == 2021) {var index = 278; var index2 = 277; var index3 = 87}
   if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 414}
-  if (month == 11 && year == 2020) {var index = 466; var index2 = 438; var index3 = 510}
+  if (month == 11 && year == 2020) {var index = 466; var index2 = 451; var index3 = 510}
   if (month == 12 && year == 2020) {var index = 510; var index2 = 496; var index3 = 514}
   if (month == 10 && year == 2021) {var index = 359; var index2 = 385; var index3 = 338}
 
@@ -335,16 +335,23 @@ var genreIDSet = {
     "Easter Sunday": "Easter",
     //may 9
     "Mother's Day": "Mother's Day",
+    //may 31
+    "Memorial Day": "Memorial Day",
+    //june 19
     "Juneteenth": "Juneteenth",
     //june 20
     "Father's Day": "Father's Day",
     "Independence Day": "4th of July",
     "International Youth Day": "Back to School",
+    //september 6
+    "Labor Day": "Labor Day",
     //september 6-8
     "Rosh Hashana": "Rosh Hashana",
     //october 11
     "Indigenous People's Day": "Indigenous People's Day",
     "Halloween": "Halloween",
+    //november 11
+    "Veterans Day": "Veterans Day",
     //november 26
     "Thanksgiving Day": "Thanksgiving",
     //december 10-18
@@ -357,7 +364,7 @@ var genreIDSet = {
   var holidayID = {
   "New Year's Day": "5632",
   //late january
-  "Martin Luther King Jr. Day": "5835",
+  "Martin Luther King Jr. Day": "5835 | 4098",
   //february
   "Black History Month": "190675 | 251436",
   //february 2
@@ -371,21 +378,27 @@ var genreIDSet = {
   "Easter": "9921 | 256895 | 3571",
   //may 9
   "Mother's Day": "456 | 173983",
+  //may 31
+  "Memorial Day": "4853 | 159909 | 1956 | 11111 | 2957",
   //june 19
-  "Juneteenth": "4098 | 270891 | 4098",
+  "Juneteenth": "4098 | 270891",
   //june 20
   "Father's Day": "5905 | 195439",
   //july 4
   "4th of July": "1627 | 235503 | 190024",
   // August
-  "Back to School":"10873",
+  "Back to School":"10873 | 173642",
   //september 6-8
   "Rosh Hashana": "11704 | 209053 | 257142",
+  //september 6
+  "Labor Day": "15057 | 33585 | 215274 | 15137 | 164400 | 190638",
   //october 11
   "Indigenous People's Day": "215162 | 10322",
   "Halloween": "3335",
+  //november 11
+  "Veterans Day": "159909 | 422 | 1543 | 8159 | 163077 | 243769 | 6091",
   //november 26
-  "Thanksgiving": "4543",
+  "Thanksgiving": "4543 | 5733 | 239919",
   //december 10-18
   "Hanukkah": "209321 | 7328",
   "Christmas": "207317 | 272288",
