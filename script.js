@@ -44,6 +44,16 @@ $("#date-search-btn").on("click", function(event){
   $(".search-Parameters").removeClass("hide")
   $(".line").removeClass("hide")
 
+  //test
+  var option = $("<option>")
+  option.attr("selected", "true")
+  option.attr("disabled", "true")
+  option.text("Select a Holiday")
+
+  $("#holidayDropdown").append(option)
+
+  //End Test
+
 
 //Calender input
   var date1 = $("#datepicker").datepicker().val()
@@ -62,6 +72,7 @@ $("#date-search-btn").on("click", function(event){
   // return holidays
   if (month == 1 && year == 2021) {var index = 0; var index2 = 435; var index3 = 8}
   if (month == 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
+  if (month == 2 && year == 2021) {var index = 26; var index2 = 26; var index3 = 26}
   if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
   if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
   if (month == 5 && year == 2021) {var index = 169; var index2 = 198; var index3 = 87}
@@ -240,7 +251,15 @@ function getMovie(holidays) {
         }
         //Ratings End
 
-
+        //Easter Egg
+        if (response.results[0].title == "Groundhog Day") {
+          for (var i = 0; i < 6; i++) {
+              $("#title" + [i]).text(response.results[0].title)
+              $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[0].poster_path)
+              $("#poster" + [i]).attr("alt", response.results[0].title)
+              $("#plot" + [i]).text(response.results[0].overview)
+            }
+          } else {
         //Print title, poster, plot, genre
         for (var i = 0; i < 6; i++) {
             $("#title" + [i]).text(response.results[i].title)
@@ -262,12 +281,12 @@ function getMovie(holidays) {
             $("#genre" + [i]).text("Genre: " + convertGenre0 + convertGenre1 + convertGenre2 + convertGenre3)
           //end print to page
         }
-
+      }
         //End TMDB ajax
     })
 }
 //Empties holiday dropdown
-$("#holidayDropdown").on("click", function(){
+$("#holidayDropdown").on("change", function(){
   $("#genreDropdown1").val("Any")
 })
 
