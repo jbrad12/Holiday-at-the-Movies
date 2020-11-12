@@ -34,6 +34,17 @@
     display: none;
   }
 
+  #moreMovies {
+    color: white;
+    text-shadow: 2px 2px 2px blue;
+    background-color: #2199e8; 
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
   footer {
     position: fixed;
     left: 0;
