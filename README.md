@@ -1,8 +1,8 @@
 # project1
-## Project1  APP Name
+## Name of application
 Holiday at The Movies
 
-# Link to app
+# Link to application
 https://project-1-group-4.github.io/project1/
 
 # User Story
@@ -18,13 +18,13 @@ Jessica -
 Jacob -
 
 # jQuery/ vanilla JavaScript tools used within the application
-On click
-Drop downs
-Objects
-Ajax calls for apis (the movie db, calenderfic)
-If else statements
-Prevent default
-Hide/show
+-On click
+-Drop downs
+-Objects
+-Ajax calls for apis (the movie db, calenderfic)
+-If/else statements
+-Prevent default
+-Hide/show on specific html elements
 
 # Our experience
 We underestimated the amount of holidays there are in the US, but were able to narrow it down. Getting the two API's to connect was challenging. One uses words, but the other uses ID's, so converting ID's to genres was also a challenge and a little time consuming.
