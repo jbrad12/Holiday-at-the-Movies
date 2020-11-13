@@ -36,5 +36,6 @@ Links to a trailer for each movie.
 
 # Screen shot of working application
 
-![image](https://user-images.githubusercontent.com/71417500/98751439-ba690780-2385-11eb-91cb-e625d38bba5c.png)
-![image](https://user-images.githubusercontent.com/71417500/98751528-e1bfd480-2385-11eb-8956-194ed5f3ecb3.png)
+<img width="1440" alt="Screen Shot 2020-11-12 at 7 01 51 PM" src="https://user-images.githubusercontent.com/68556793/99015080-bc63cf80-2519-11eb-8faf-a7cdaffa5cdb.png">
+<img width="1440" alt="Screen Shot 2020-11-12 at 7 02 09 PM" src="https://user-images.githubusercontent.com/68556793/99015084-be2d9300-2519-11eb-98c0-1bd29d148c54.png">
+
