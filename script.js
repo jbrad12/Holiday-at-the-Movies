@@ -290,6 +290,7 @@ function getMovie(holidays) {
 //Empties holiday dropdown
 $("#holidayDropdown").on("change", function(){
   $("#genreDropdown1").val("Any")
+  $("#genreDropdown2").val("")
 })
 
 //Objects for keywords and genres
