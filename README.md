@@ -7,12 +7,17 @@ https://project-1-group-4.github.io/project1/
 
 # User Story
 Everyone loves watching holiday movies! Wouldn't it be great if someone could recommend you not one, but a whole list of holiday movies based on a specific date?
+First, the user enters any date of their choosing​
+The user is then asked to choose one of the presented holidays that are closest to that date​
+Then the user picks a genre
+The application will produce a list of movies related to that holiday along with a description and rating
+
 
 # Purpose of Application
 Introducing Holiday at the Movies: An application that gives you a list of movies based on the holidays that are closest to the date that is entered.
 
 # Distrubution of work
-Elan -
+Elan - 
 Claudia -
 Jessica -
 Jacob -
