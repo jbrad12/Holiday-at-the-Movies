@@ -12,19 +12,19 @@ Everyone loves watching holiday movies! Wouldn't it be great if someone could re
 Introducing Holiday at the Movies: An application that gives you a list of movies based on the holidays that are closest to the date that is entered.
 
 # Distrubution of work
-Elan -
-Claudia -
-Jessica -
-Jacob -
+<br> Elan Zinkow </br>
+<br> Claudia Alpert </br>
+<br> Jessica Parker </br>
+<br>Jacob Bradshaw </br>
 
 # jQuery/ vanilla JavaScript tools used within the application
--On click
--Drop downs
--Objects
--Ajax calls for apis (the movie db, calenderfic)
--If/else statements
--Prevent default
--Hide/show on specific html elements
+<br> On click </br>
+<br> Drop downs </br>
+<br> Objects </br>
+<br> Ajax calls for apis (the movie db, calendarfic, ombd) </br>
+<br> If/else statements </br>
+<br> Prevent default </br>
+<br> Hide/show on specific html elements </br>
 
 # Our experience
 We underestimated the amount of holidays there are in the US, but were able to narrow it down. Getting the two API's to connect was challenging. One uses words, but the other uses ID's, so converting ID's to genres was also a challenge and a little time consuming.
