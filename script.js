@@ -258,6 +258,8 @@ function getMovie(holidays) {
               $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[0].poster_path)
               $("#poster" + [i]).attr("alt", response.results[0].title)
               $("#plot" + [i]).text(response.results[0].overview)
+              $("#genre" + [i]) .text("")
+              $("#rating" + [i]).text("")
             }
           } else {
         //Print title, poster, plot, genre
