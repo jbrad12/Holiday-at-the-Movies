@@ -13,13 +13,16 @@ The movies then print to the screen, with the current most popular movie in the 
 
 $(document).ready(function() {
 
+ 
   //Prints "PLOT" to page
   $("#plot").text("Plot:")
+
+  // search array for local storage
+  var searchArray = []
 
   //Date picker
 $( function() {
   $( "#datepicker" ).datepicker({ dateFormat: "mm/dd/yy" });
-  console.log($("#datepicker").datepicker().val())
 });
 
 //DropDown Menus
@@ -44,7 +47,6 @@ $("#date-search-btn").on("click", function(event){
   $(".search-Parameters").removeClass("hide")
   $(".line").removeClass("hide")
 
-  //test
   var option = $("<option>")
   option.attr("selected", "true")
   option.attr("disabled", "true")
@@ -57,7 +59,6 @@ $("#date-search-btn").on("click", function(event){
 
 //Calender input
   var date1 = $("#datepicker").datepicker().val()
-    console.log("date1:", date1)
 
   if (date1 !== ""){
   var month = date1.substr(0, 2);
@@ -65,9 +66,6 @@ $("#date-search-btn").on("click", function(event){
   var year = date1.substr(6, 10);
 
   //Exclusion indexes 2020: 103 2021: 87
-
-  console.log("month:", month)
-  console.log("year:", year)
 
   // return holidays
   if (month == 1 && year == 2021) {var index = 0; var index2 = 435; var index3 = 8}
@@ -81,12 +79,13 @@ $("#date-search-btn").on("click", function(event){
   if (month == 8 && year == 2021) {var index = 262; var index2 = 261; var index3 = 87}
   if (month == 9 && year == 2021) {var index = 278; var index2 = 277; var index3 = 87}
   if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 414}
-  if (month == 11 && year == 2020) {var index = 466; var index2 = 451; var index3 = 510}
+  if (month == 11 && day <= 13 && year == 2020) {var index = 466; var index2 = 451; var index3 = 75}
+  if (month == 11 && day > 13 && year == 2020) {var index = 466; var index2 = 451; var index3 = 510}
   if (month == 12 && year == 2020) {var index = 510; var index2 = 496; var index3 = 514}
   if (month == 10 && year == 2021) {var index = 359; var index2 = 385; var index3 = 338}
 
   //start ajax call to calendarific
-var apiKey2 = "&api_key=b9ec0bca17bd0a622c5f4df29dc9cfa0894bc535"
+var apiKey2 = "&api_key=2c0d78047e25b08e93d37d75d73fcd356034fdc8"
 var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&country=US&year=" + year.toString()
 
 
@@ -98,12 +97,9 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   var holidays = response.response.holidays[index].name
   var holidays2 = response.response.holidays[index2].name
   var holidays3 = response.response.holidays[index3].name
-  // console.log("holidays response:", response.response.holidays[index])
-  // console.log("holidays:",response)
   var renameHolName = renameHolidayName[holidays]
   var renameHolName2 = renameHolidayName[holidays2]
   var renameHolName3 = renameHolidayName[holidays3]
-  // console.log(renameHolName)
   
   holidayDiv = $("<option>")
   $(holidayDiv).addClass("clear")
@@ -121,15 +117,14 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   if (holidays3 !== "Maryland Day") {
   $("#holidayDropdown").append(holidayDiv3)
   }
-  console.log(response)
 
   })
 //End Calendar Input
 
 // ​//Holiday Dropdown Input
 $("#search-btn").on("click", function(event){
-    event.preventDefault()
-    console.log("holiday dropdown:", $("#holidayDropdown option:selected").text())
+    event.preventDefault();
+    $("#localStoragePrint").empty()
       var holidays = $("#holidayDropdown option:selected").text();
       getMovie(holidays)
   })
@@ -141,12 +136,8 @@ $("#search-btn").on("click", function(event){
 
 //The Movie DB Start
 function getMovie(holidays) {
-  console.log("holidays:", holidays)
-  // var holiday = $(this).attr("value")
-  console.log("holidayID[holidays]:", holidayID[holidays])
   var genre1 = $("#genreDropdown1").val()
   var genre2 = $("#genreDropdown2").val()
-  console.log("genre1:", genre1)
   
   var apiKey = "e6b65191c727ef61ccf71c872d48dc76"
   var queryURL = "https://api.themoviedb.org/3/discover/movie?api_key=" + apiKey + "&language=en-US&sort_by=popularity.desc&include_adult=false&with_keywords=" + holidayID[holidays] + "&with_genres=" + genreIDSet[genre1] + "| " + genreIDSet[genre2]
@@ -155,11 +146,19 @@ function getMovie(holidays) {
       url: queryURL,
       method: "GET"
   }).then(function (response) {
-      console.log("movie list:", response)
 
+      //local storage
+      
+      var searchItem = {
+        storageKey: holidays + ": ",
+        titleHero: response.results[0].title
+      }
+      searchArray.push(searchItem)
+      localStorage.setItem("index",JSON.stringify(searchArray))
       
         //Shows Elements
         $("#movie-choices, #movie-main, #div1").removeClass("hide")
+        
 
     
       // Rating Start, uses omdb api
@@ -173,7 +172,6 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating0").text("Rated: " + rating)
-            console.log(response)
           })
           if (typeof response.results[1] !== "undefined") {
           var movieTitle1 = response.results[1].title
@@ -186,7 +184,6 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating1").text("Rated: " + rating)
-            console.log("rating1:", response)
           })
           }
 
@@ -230,7 +227,6 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating4").text("Rated: " + rating)
-            console.log("rating4:",response)
           })
 
           }
@@ -246,7 +242,6 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             $("#rating5").text("Rated: " + rating)
-            console.log("response5:",response)
           })
         }
         //Ratings End
@@ -281,6 +276,7 @@ function getMovie(holidays) {
             if (getGenre3 === undefined) {convertGenre3=""}
               else (convertGenre3 = ", " + genreIDGet[getGenre3])
             $("#genre" + [i]).text("Genre: " + convertGenre0 + convertGenre1 + convertGenre2 + convertGenre3)
+                 
           //end print to page
         }
       }
