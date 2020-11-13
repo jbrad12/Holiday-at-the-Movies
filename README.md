@@ -17,10 +17,10 @@ The application will produce a list of movies related to that holiday along with
 Introducing Holiday at the Movies: An application that gives you a list of movies based on the holidays that are closest to the date that is entered.
 
 # Distrubution of work
-<br> Elan - HTML, AJAX Calls, objects, slide 8 </br>
-<br> Jessica - CSS, design layout, demo, slide 9-11 </br>
-<br> Jacob -  design layout, JavaScript, slide 4-6 </br>
-<br> Claudia - HTML, concept, powerpoint, slide 1-3 </br>
+<br> Elan - HTML, AJAX Calls, objects </br>
+<br> Jessica - CSS, on-click, correcting bugs  </br>
+<br> Jacob -  design layout, on-clicks, perfecting the communication between APIs </br>
+<br> Claudia - HTML, concept, powerpoint </br>
 
 
 # jQuery/ vanilla JavaScript tools used within the application
