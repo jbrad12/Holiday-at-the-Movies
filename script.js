@@ -179,45 +179,59 @@ function getMovie(holidays) {
 
     
       // Rating Start, uses omdb api
-          var movieTitle0 = response.results[0].title
-          var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle0 + "&apikey=b09a14fe";
-  
-          // Creates AJAX call for the specific movie button being clicked
-          $.ajax({
-            url: queryURLRating,
-            method: "GET"
-          }).then(function(response) {
-            var rating = response.Rated
-            $("#rating0").text("Rated: " + rating)
-          })
-          if (typeof response.results[1] !== "undefined") {
-          var movieTitle1 = response.results[1].title
-          var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle1 + "&apikey=b09a14fe";
-  
-          // Creates AJAX call for the specific movie button being clicked
-          $.ajax({
-            url: queryURLRating,
-            method: "GET"
-          }).then(function(response) {
-            var rating = response.Rated
-            $("#rating1").text("Rated: " + rating)
-          })
+      if (typeof response.results[0] !== "undefined") {
+        var movieTitle0 = response.results[0].title
+        var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle0 + "&apikey=b09a14fe";
+
+        // Creates AJAX call for the specific movie button being clicked
+        $.ajax({
+          url: queryURLRating,
+          method: "GET"
+        }).then(function(response) {
+          var rating = response.Rated
+          if (rating == undefined) {
+            $("#rating0").text("Rated: Not Found")  
           }
+          else {
+          $("#rating0").text("Rated: " + rating)}
+        })
+        }
+
+          if (typeof response.results[1] !== "undefined") {
+            var movieTitle1 = response.results[1].title
+            var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle1 + "&apikey=b09a14fe";
+    
+            // Creates AJAX call for the specific movie button being clicked
+            $.ajax({
+              url: queryURLRating,
+              method: "GET"
+            }).then(function(response) {
+              var rating = response.Rated
+              if (rating == undefined) {
+                $("#rating1").text("Rated: Not Found")  
+              }
+              else {
+              $("#rating1").text("Rated: " + rating)}
+            })
+            }
 
           if (typeof response.results[2] !== "undefined") {
-          var movieTitle2 = response.results[2].title
-          var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle2 + "&apikey=b09a14fe";
-  
-          // Creates AJAX call for the specific movie button being clicked
-          $.ajax({
-            url: queryURLRating,
-            method: "GET"
-          }).then(function(response) {
-            var rating = response.Rated
-            $("#rating2").text("Rated: " + rating)
-          })
-
-          }
+            var movieTitle2 = response.results[2].title
+            var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle2 + "&apikey=b09a14fe";
+    
+            // Creates AJAX call for the specific movie button being clicked
+            $.ajax({
+              url: queryURLRating,
+              method: "GET"
+            }).then(function(response) {
+              var rating = response.Rated
+              if (rating == undefined) {
+                $("#rating2").text("Rated: Not Found")  
+              }
+              else {
+              $("#rating2").text("Rated: " + rating)}
+            })
+            }
           
           if (typeof response.results[3] !== "undefined") {
           var movieTitle3 = response.results[3].title
@@ -229,38 +243,49 @@ function getMovie(holidays) {
             method: "GET"
           }).then(function(response) {
             var rating = response.Rated
-            $("#rating3").text("Rated: " + rating)
+            if (rating == undefined) {
+              $("#rating3").text("Rated: Not Found")  
+            }
+            else {
+            $("#rating3").text("Rated: " + rating)}
           })
           }
 
           if (typeof response.results[4] !== "undefined") {
-          var movieTitle4 = response.results[4].title
-          var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle4 + "&apikey=b09a14fe";
-  
-          // Creates AJAX call for the specific movie button being clicked
-          $.ajax({
-            url: queryURLRating,
-            method: "GET"
-          }).then(function(response) {
-            var rating = response.Rated
-            $("#rating4").text("Rated: " + rating)
-          })
+            var movieTitle4 = response.results[4].title
+            var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle4 + "&apikey=b09a14fe";
+    
+            // Creates AJAX call for the specific movie button being clicked
+            $.ajax({
+              url: queryURLRating,
+              method: "GET"
+            }).then(function(response) {
+              var rating = response.Rated
+              if (rating == undefined) {
+                $("#rating4").text("Rated: Not Found")  
+              }
+              else {
+              $("#rating4").text("Rated: " + rating)}
+            })
+            }
 
-          }
-
-          if (typeof response.results[5] !== "undefined") {
-          var movieTitle5 = response.results[5].title
-          var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle5 + "&apikey=b09a14fe";
-  
-          // Creates AJAX call for the specific movie button being clicked
-          $.ajax({
-            url: queryURLRating,
-            method: "GET"
-          }).then(function(response) {
-            var rating = response.Rated
-            $("#rating5").text("Rated: " + rating)
-          })
-        }
+            if (typeof response.results[5] !== "undefined") {
+              var movieTitle5 = response.results[5].title
+              var queryURLRating = "https://www.omdbapi.com/?t=" + movieTitle5 + "&apikey=b09a14fe";
+      
+              // Creates AJAX call for the specific movie button being clicked
+              $.ajax({
+                url: queryURLRating,
+                method: "GET"
+              }).then(function(response) {
+                var rating = response.Rated
+                if (rating == undefined) {
+                  $("#rating5").text("Rated: Not Found")  
+                }
+                else {
+                $("#rating5").text("Rated: " + rating)}
+              })
+              }
         //Ratings End
 
         //Easter Egg
