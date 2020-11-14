@@ -18,7 +18,18 @@ $(document).ready(function() {
   $("#plot").text("Plot:")
 
   // search array for local storage
-  var searchArray = []
+ 
+
+  if ( JSON.parse(localStorage.getItem("index")) !== null) {
+  var getStorage = JSON.parse(localStorage.getItem("index"))
+    var key = getStorage.storageKey
+    var value = getStorage.titleHero
+    storageDiv = $("#local1")
+    storageDiv.addClass("localStorage")
+    storageDiv.text(key + ": " + value)
+    $(".hero-section-text").append(storageDiv)
+  
+}
 
   //Date picker
 $( function() {
@@ -150,11 +161,19 @@ function getMovie(holidays) {
       //local storage
       
       var searchItem = {
-        storageKey: holidays + ": ",
+        storageKey: "Top " + holidays + " Pick ",
         titleHero: response.results[0].title
       }
-      searchArray.push(searchItem)
-      localStorage.setItem("index",JSON.stringify(searchArray))
+      //searchArray.push(searchItem)
+      localStorage.setItem("index",JSON.stringify(searchItem))
+      var getStorage = JSON.parse(localStorage.getItem("index"))
+        var key = getStorage.storageKey
+        var value = getStorage.titleHero
+        var storageDiv = $("#local1")
+        storageDiv.addClass("localStorage")
+        storageDiv.text(key + ": " + value)
+        $(".hero-section-text").append(storageDiv)
+      
       
         //Shows Elements
         $("#movie-choices, #movie-main, #div1").removeClass("hide")
