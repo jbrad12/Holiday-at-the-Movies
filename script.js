@@ -19,7 +19,6 @@ $(document).ready(function() {
 
   // search array for local storage
  
-
   if ( JSON.parse(localStorage.getItem("index")) !== null) {
   var getStorage = JSON.parse(localStorage.getItem("index"))
     var key = getStorage.storageKey
@@ -85,7 +84,7 @@ $("#date-search-btn").on("click", function(event){
   if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
   if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
   if (month == 5 && year == 2021) {var index = 169; var index2 = 198; var index3 = 87}
-  if (month == 6 && year == 2021) {var index = 225; var index2 = 238; var index3 = 222}
+  if (month == 6 && year == 2021) {var index = 68; var index2 = 225; var index3 = 222}
   if (month == 7 && year == 2021) {var index = 238; var index2 = 87; var index3 = 87}
   if (month == 8 && year == 2021) {var index = 262; var index2 = 261; var index3 = 87}
   if (month == 9 && year == 2021) {var index = 278; var index2 = 277; var index3 = 87}
@@ -135,7 +134,6 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
 // ​//Holiday Dropdown Input
 $("#search-btn").on("click", function(event){
     event.preventDefault();
-    $("#localStoragePrint").empty()
       var holidays = $("#holidayDropdown option:selected").text();
       getMovie(holidays)
   })
@@ -268,12 +266,12 @@ function getMovie(holidays) {
         //Easter Egg
         if (response.results[0].title == "Groundhog Day") {
           for (var i = 0; i < 6; i++) {
-              $("#title" + [i]).text(response.results[0].title)
+              $("#title" + [i]).text("Groundhog Day")
               $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[0].poster_path)
-              $("#poster" + [i]).attr("alt", response.results[0].title)
+              $("#poster" + [i]).attr("alt", "Groundhog Day")
               $("#plot" + [i]).text(response.results[0].overview)
-              $("#genre" + [i]) .text("")
-              $("#rating" + [i]).text("")
+              $("#genre" + [i]) .text("Genre: Romance, Fantasy, Drama, Comedy")
+              $("#rating" + [i]).text("Rated: PG")
             }
           } else {
         //Print title, poster, plot, genre
@@ -374,6 +372,8 @@ var genreIDSet = {
     "Mother's Day": "Mother's Day",
     //may 31
     "Memorial Day": "Memorial Day",
+    // june
+    "International Women's Day": "Gay Pride Month",
     //june 19
     "Juneteenth": "Juneteenth",
     //june 20
@@ -417,6 +417,8 @@ var genreIDSet = {
   "Mother's Day": "456 | 173983",
   //may 31
   "Memorial Day": "4853 | 159909 | 1956 | 11111 | 2957",
+  // june
+  "Gay Pride Month": "173662 | 241179 | 268137 | 158718 | 180002",
   //june 19
   "Juneteenth": "4098 | 270891",
   //june 20
