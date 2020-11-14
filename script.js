@@ -190,7 +190,7 @@ function getMovie(holidays) {
         }).then(function(response) {
           var rating = response.Rated
           if (rating == undefined) {
-            $("#rating0").text("Rated: not found")  
+            $("#rating0").text("Rated: Not Found")  
           }
           else {
           $("#rating0").text("Rated: " + rating)}
@@ -208,7 +208,7 @@ function getMovie(holidays) {
             }).then(function(response) {
               var rating = response.Rated
               if (rating == undefined) {
-                $("#rating1").text("Rated: not found")  
+                $("#rating1").text("Rated: Not Found")  
               }
               else {
               $("#rating1").text("Rated: " + rating)}
@@ -226,7 +226,7 @@ function getMovie(holidays) {
             }).then(function(response) {
               var rating = response.Rated
               if (rating == undefined) {
-                $("#rating2").text("Rated: not found")  
+                $("#rating2").text("Rated: Not Found")  
               }
               else {
               $("#rating2").text("Rated: " + rating)}
@@ -244,7 +244,7 @@ function getMovie(holidays) {
           }).then(function(response) {
             var rating = response.Rated
             if (rating == undefined) {
-              $("#rating3").text("Rated: not found")  
+              $("#rating3").text("Rated: Not Found")  
             }
             else {
             $("#rating3").text("Rated: " + rating)}
@@ -262,7 +262,7 @@ function getMovie(holidays) {
             }).then(function(response) {
               var rating = response.Rated
               if (rating == undefined) {
-                $("#rating4").text("Rated: not found")  
+                $("#rating4").text("Rated: Not Found")  
               }
               else {
               $("#rating4").text("Rated: " + rating)}
@@ -280,7 +280,7 @@ function getMovie(holidays) {
               }).then(function(response) {
                 var rating = response.Rated
                 if (rating == undefined) {
-                  $("#rating5").text("Rated: not found")  
+                  $("#rating5").text("Rated: Not Found")  
                 }
                 else {
                 $("#rating5").text("Rated: " + rating)}
