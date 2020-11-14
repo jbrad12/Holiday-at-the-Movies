@@ -292,7 +292,7 @@ function getMovie(holidays) {
         if (response.results[0].title == "Groundhog Day") {
           for (var i = 0; i < 6; i++) {
               $("#title" + [i]).text("Groundhog Day")
-              $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[0].poster_path)
+              $("#poster" + [i]).attr("src", "https://image.tmdb.org/t/p/w185/" + response.results[0].poster_path)
               $("#poster" + [i]).attr("alt", "Groundhog Day")
               $("#plot" + [i]).text(response.results[0].overview)
               $("#genre" + [i]) .text("Genre: Romance, Fantasy, Drama, Comedy")
@@ -302,7 +302,7 @@ function getMovie(holidays) {
         //Print title, poster, plot, genre
         for (var i = 0; i < 6; i++) {
             $("#title" + [i]).text(response.results[i].title)
-            $("#poster" + [i]).attr("src", "http://image.tmdb.org/t/p/w185/" + response.results[i].poster_path)
+            $("#poster" + [i]).attr("src", "https://image.tmdb.org/t/p/w185/" + response.results[i].poster_path)
             $("#poster" + i).attr("alt", response.results[i].title)
             $("#plot" + [i]).text(response.results[i].overview)
             // Get genre start
