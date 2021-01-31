@@ -78,38 +78,29 @@ $("#date-search-btn").on("click", function(event){
   //Exclusion indexes 2020: 103 2021: 87
 
   // return holidays
-  if (month == 1 && year == 2021) {var index = 0; var index2 = 435; var index3 = 8}
-  if (month == 2 && day !== 2 && year == 2021) {var index = 24; var index2 = 26; var index3 = 39}
-  if (month == 2 && day == 2 && year == 2021) {var index = 26; var index2 = 26; var index3 = 26}
-  if (month == 3 && year == 2021) {var index = 72; var index2 = 91; var index3 = 106}
-  if (month == 4 && year == 2021) {var index = 106; var index2 = 91; var index3 = 169}
-  if (month == 5 && year == 2021) {var index = 169; var index2 = 198; var index3 = 87}
-  if (month == 6 && year == 2021) {var index = 68; var index2 = 225; var index3 = 222}
-  if (month == 7 && year == 2021) {var index = 238; var index2 = 87; var index3 = 87}
-  if (month == 8 && year == 2021) {var index = 262; var index2 = 261; var index3 = 87}
-  if (month == 9 && year == 2021) {var index = 278; var index2 = 277; var index3 = 87}
-  if (month == 10 && year == 2020) {var index = 438; var index2 = 466; var index3 = 414}
-  if (month == 11 && day <= 13 && year == 2020) {var index = 466; var index2 = 451; var index3 = 75}
-  if (month == 11 && day > 13 && year == 2020) {var index = 466; var index2 = 451; var index3 = 510}
-  if (month == 12 && year == 2020) {var index = 510; var index2 = 496; var index3 = 514}
-  if (month == 10 && year == 2021) {var index = 359; var index2 = 385; var index3 = 338}
-
-  //start ajax call to calendarific
-var apiKey2 = "&api_key=2c0d78047e25b08e93d37d75d73fcd356034fdc8"
-var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&country=US&year=" + year.toString()
+  if (month == 1) {var index = "New Year's Day"; var index2 = "exclude"; var index3 = "Martin Luther King Jr. Day"}
+  if (month == 2 && day !== 2 ) {var index = "Black History Month"; var index2 = "Groundhog Day"; var index3 = "Valentine's Day"}
+  if (month == 2 && day == 2 ) {var index = "Groundhog Day"; var index2 = "Groundhog Day"; var index3 = "Groundhog Day"}
+  if (month == 3 ){var index = "St. Patrick's Day"; var index2 = "Passover"; var index3 = "Easter"}
+  if (month == 4 ){var index = "Easter"; var index2 = "exclude"; var index3 = "exclude"}
+  if (month == 5 ){var index = "Mother's Day"; var index2 = "Memorial Day"; var index3 = "exclude"}
+  if (month == 6 ){var index = "Juneteenth"; var index2 = "Gay Pride Month"; var index3 = "Father's Day"}
+  if (month == 7 ){var index = "4th of July"; var index2 = "exclude"; var index3 = "exclude"}
+  if (month == 8 ){var index = "Back to School"; var index2 = "exclude"; var index3 = "exclude"}
+  if (month == 9 ){var index = "Labor Day"; var index2 = "Rosh Hashana"; var index3 = "exclude"}
+  if (month == 10) {var index = "Indigenous People's Day"; var index2 = "Halloween"; var index3 = "exclude"}
+  if (month == 11 && day <= 13 ) {var index = "Veterans Day"; var index2 = "Thanksgiving"; var index3 = "Election Day"}
+  if (month == 11 && day > 13 ) {var index = "Thanksgiving"; var index2 = "Veterans Day"; var index3 = "Christmas"}
+  if (month == 12) {var index = "Hanukkah"; var index2 = "Christmas"; var index3 = "New Year's Eve"}
+  
 
 
-  $.ajax({
-    url: queryURL2,
-    method: "GET"
-  }).then(function(response) {
+ 
       
-  var holidays = response.response.holidays[index].name
-  var holidays2 = response.response.holidays[index2].name
-  var holidays3 = response.response.holidays[index3].name
-  var renameHolName = renameHolidayName[holidays]
-  var renameHolName2 = renameHolidayName[holidays2]
-  var renameHolName3 = renameHolidayName[holidays3]
+  var holidays = index
+  var holidays2 = index2
+  var holidays3 = index3
+ 
   
   holidayDiv = $("<option>")
   $(holidayDiv).addClass("clear")
@@ -117,18 +108,18 @@ var queryURL2 = "https://calendarific.com/api/v2/holidays?" + apiKey2 + "&countr
   $(holidayDiv2).addClass("clear")
   holidayDiv3 = $("<option>")
   $(holidayDiv3).addClass("clear")
-  holidayDiv.text(renameHolName)
-  holidayDiv2.text(renameHolName2)
-  holidayDiv3.text(renameHolName3)
+  holidayDiv.text(holidays)
+  holidayDiv2.text(holidays2)
+  holidayDiv3.text(holidays3)
   $("#holidayDropdown").append(holidayDiv)
-  if (holidays2 !== "Maryland Day") {
+  if (holidays2 !== "exclude") {
   $("#holidayDropdown").append(holidayDiv2)
   }
-  if (holidays3 !== "Maryland Day") {
+  if (holidays3 !== "exclude") {
   $("#holidayDropdown").append(holidayDiv3)
   }
 
-  })
+  }
 //End Calendar Input
 
 // ​//Holiday Dropdown Input
@@ -139,7 +130,7 @@ $("#search-btn").on("click", function(event){
   })
 }
 //End Holiday Dropdown Input
-})
+)
 // End Calendarific
 
 
